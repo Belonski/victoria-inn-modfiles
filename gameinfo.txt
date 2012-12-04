@@ -1,8 +1,7 @@
 "GameInfo"
 {
-	game 		"AlexanderMod"
-	title 		"HALF-LIFE'"
-	title2		"== episode two =="
+	game 		"Victoria Inn"
+	title 		"Victoria Inn"
 
 	type		singleplayer_only
 
