@@ -1,0 +1,5 @@
+"Camera_Nightvision"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$nvlevel" 10 //can be whatever value you want
+}
