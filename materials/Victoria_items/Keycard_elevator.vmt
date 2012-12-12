@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	 $model "1"
+	 $basetexture "keycard_elevator/Keycard_elevator"
+	 $translucent "1"
+}
