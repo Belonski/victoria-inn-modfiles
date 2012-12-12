@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	 $model "1"
+	 $basetexture "Keys_steel/keys"
+	 $translucent "1"
+}

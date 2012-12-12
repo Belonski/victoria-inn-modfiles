@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	 $model "1"
+	 $basetexture "keycard_topfloor/Keycard_rooms_topfloor"
+	 $translucent "1"
+}
