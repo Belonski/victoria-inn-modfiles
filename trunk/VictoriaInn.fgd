@@ -1,0 +1,14 @@
+@include "base.fgd"
+ 
+@PointClass base(Targetname) studio("models/Victoria_items/keycard.mdl")= vi_item_keycard :  "Keycard model entity."
+[
+	output OnPlayerTouch(void) : "Key found."
+	
+	skin(integer) : "Skin" : 0 : "0 = Rooms top floor, 1 = Elevator"
+]
+
+@PointClass base(Targetname) studio("models/Victoria_items/keys.mdl")= vi_item_key :  "Key model entity."
+[
+	output OnPlayerTouch(void) : "Key found."
+	
+]
