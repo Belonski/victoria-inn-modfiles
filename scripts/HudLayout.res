@@ -1,5 +1,39 @@
 "Resource/HudLayout.res"
 {
+	HudCameraRec
+    {
+            "fieldName"             "HudCameraRec"
+            "xpos" "10"
+            "ypos" "428"
+            "wide" "80" 
+            "tall" "42"
+            "visible" "1"
+            "enabled" "1"
+            "PaintBackgroundType"   "1"
+    }
+	HudCameraSight
+    {
+            "fieldName"             "HudCameraSight"
+            "xpos" "0"
+            "ypos" "0"
+            "wide" "640" [$WIN32]
+            "tall" "480" [$WIN32]
+            "visible" "1"
+            "enabled" "1"
+            "PaintBackgroundType"   "1"
+    }
+    HudCameraBattery
+    {
+            "fieldName"             "HudCameraBattery"
+            "xpos" "r74"
+            "ypos" "10"
+            "wide" "64"
+            "tall" "32"
+            "visible" "1"
+            "enabled" "1"
+            "PaintBackgroundType"   "1"
+    }
+
 	HudHealth [$WIN32]
 	{
 		"fieldName"		"HudHealth"
