@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "238"
+	"mapversion" "239"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "238"
+	"mapversion" "239"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35202,7 +35202,7 @@ entity
 	{
 		"OnPlayerTouch" "close_door,Unlock,,0,-1"
 	}
-	"origin" "1657 -972 10"
+	"origin" "1659 395 10"
 	editor
 	{
 		"color" "220 30 220"
