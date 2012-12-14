@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "239"
+	"mapversion" "240"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "239"
+	"mapversion" "240"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35227,7 +35227,7 @@ entity
 }
 entity
 {
-	"id" "51846"
+	"id" "52543"
 	"classname" "prop_static"
 	"angles" "0 0 0"
 	"disableselfshadowing" "0"
@@ -35239,11 +35239,11 @@ entity
 	"ignorenormals" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/test/playerbed5.mdl"
+	"model" "models/victoria_furniture/playerbed5.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1510 -827 20"
+	"origin" "1511 -831 18"
 	editor
 	{
 		"color" "255 255 0"
