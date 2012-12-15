@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	game 		"Victoria Inn"
-	title 		"Victoria Inn"
+	title 		""
 
 	type		singleplayer_only
 
