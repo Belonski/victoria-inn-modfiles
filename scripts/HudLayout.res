@@ -4,9 +4,9 @@
     {
             "fieldName"             "HudCameraRec"
             "xpos" "10"
-            "ypos" "428"
-            "wide" "80" 
-            "tall" "42"
+            "ypos" "345"
+            "wide" "128" 
+            "tall" "128"
             "visible" "1"
             "enabled" "1"
             "PaintBackgroundType"   "1"
