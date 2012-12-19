@@ -110,6 +110,30 @@ Scheme
 		}
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		DefaultBig
+		{
+			"1"	[$X360]
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+			"1"	[$WIN32]
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		Default
 		{
 			"1"	[$X360]

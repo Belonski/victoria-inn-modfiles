@@ -1,5 +1,17 @@
 "Resource/HudLayout.res"
 {
+	HudGameMessage
+	{
+		"fieldName"             "HudGameMessage"
+        "xpos" "10"
+        "ypos" "10"
+        "wide" "300" 
+        "tall" "128"
+        "visible" "1"
+        "enabled" "1"
+        "PaintBackgroundType"   "2"
+	}
+
 	HudCameraRec
     {
             "fieldName"             "HudCameraRec"
