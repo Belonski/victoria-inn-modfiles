@@ -2,5 +2,5 @@
 {
 
 	 $model "1"
-	 $basetexture "Sheet_Bed/sheet"
+	 $basetexture "Map _1/sheet"
 }
