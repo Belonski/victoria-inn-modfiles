@@ -2,5 +2,5 @@
 {
 
 	 $model "1"
-	 $basetexture "Wood_Bed/wood"
+	 $basetexture "Map _0/wood_dark"
 }
