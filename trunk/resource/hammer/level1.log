@@ -70199,3 +70199,1040 @@ Level flags = 0
 Total triangle count: 7371
 Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
 19 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\testmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity infodecal (1791.00 866.08 54.90) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1152.0 1024.0 -136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1344.0 1024.0 -136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1600.0 1024.0 -136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1920.0 1024.0 -136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1920.0 1024.0 64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1072.0 1024.0 200.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1456.0 1024.0 200.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1920.0 1024.0 168.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169029 bytes)
+Error! prop_static using model "models/props_c17/furnitureradiator001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnitureradiator001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer002a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituretable001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituretable001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1142 texinfos to 571
+Reduced 86 texdatas to 64 (2992 bytes to 2364)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+5 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+2453 faces
+248324 square feet [35758680.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0277 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                457/8192         5484/98304    ( 5.6%) 
+brushsides            2754/65536       22032/524288   ( 4.2%) 
+planes                1336/65536       26720/1310720  ( 2.0%) 
+vertexes              4124/65536       49488/786432   ( 6.3%) 
+nodes                 1466/65536       46912/2097152  ( 2.2%) 
+texinfos               571/12288       41112/884736   ( 4.6%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2453/65536      137368/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1464/65536       81984/3670016  ( 2.2%) 
+leaves                1490/65536       47680/2097152  ( 2.3%) 
+leaffaces             3026/65536        6052/131072   ( 4.6%) 
+leafbrushes            723/65536        1446/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            18133/512000      72532/2048000  ( 3.5%) 
+edges                10648/256000      42592/1024000  ( 4.2%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5901/65536       11802/131072   ( 9.0%) 
+cubemapsamples           5/1024           80/16384    ( 0.5%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1491800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      246741/393216   (62.7%) 
+LDR ambient table     1490/65536        5960/262144   ( 2.3%) 
+HDR ambient table     1490/65536        5960/262144   ( 2.3%) 
+LDR leaf ambient      1636/65536       45808/1835008  ( 2.5%) 
+HDR leaf ambient      1490/65536       41720/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      648274/0        ( 0.0%) 
+physics               [variable]      169029/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7371
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\testmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity infodecal (1791.00 866.08 54.90) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (168885 bytes)
+Error! prop_static using model "models/props_c17/furnitureradiator001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnitureradiator001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer002a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituretable001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituretable001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1121 texinfos to 517
+Reduced 82 texdatas to 60 (2807 bytes to 2194)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+3 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+2010 faces
+148830 square feet [21431648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                455/8192         5460/98304    ( 5.6%) 
+brushsides            2742/65536       21936/524288   ( 4.2%) 
+planes                1340/65536       26800/1310720  ( 2.0%) 
+vertexes              3904/65536       46848/786432   ( 6.0%) 
+nodes                 1463/65536       46816/2097152  ( 2.2%) 
+texinfos               517/12288       37224/884736   ( 4.2%) 
+texdata                 60/2048         1920/65536    ( 2.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2010/65536      112560/3670016  ( 3.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1244/65536       69664/3670016  ( 1.9%) 
+leaves                1487/65536       47584/2097152  ( 2.3%) 
+leaffaces             2533/65536        5066/131072   ( 3.9%) 
+leafbrushes            727/65536        1454/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            14899/512000      59596/2048000  ( 2.9%) 
+edges                 8977/256000      35908/1024000  ( 3.5%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            290/32768        2900/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5415/65536       10830/131072   ( 8.3%) 
+cubemapsamples           5/1024           80/16384    ( 0.5%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1121412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      246075/393216   (62.6%) 
+LDR ambient table     1487/65536        5948/262144   ( 2.3%) 
+HDR ambient table     1487/65536        5948/262144   ( 2.3%) 
+LDR leaf ambient      2138/65536       59864/1835008  ( 3.3%) 
+HDR leaf ambient      1487/65536       41636/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11324    ( 0.0%) 
+pakfile               [variable]      646948/0        ( 0.0%) 
+physics               [variable]      168885/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5903
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\testmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity infodecal (1791.00 866.08 54.90) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (166811 bytes)
+Error! prop_static using model "models/props_c17/furnitureradiator001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnitureradiator001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer002a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituretable001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituretable001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 784 texinfos to 458
+Reduced 43 texdatas to 39 (993 bytes to 891)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+3 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1970 faces
+148219 square feet [21343616.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                448/8192         5376/98304    ( 5.5%) 
+brushsides            2700/65536       21600/524288   ( 4.1%) 
+planes                1308/65536       26160/1310720  ( 2.0%) 
+vertexes              3852/65536       46224/786432   ( 5.9%) 
+nodes                 1440/65536       46080/2097152  ( 2.2%) 
+texinfos               458/12288       32976/884736   ( 3.7%) 
+texdata                 39/2048         1248/65536    ( 1.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1970/65536      110320/3670016  ( 3.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1218/65536       68208/3670016  ( 1.9%) 
+leaves                1463/65536       46816/2097152  ( 2.2%) 
+leaffaces             2471/65536        4942/131072   ( 3.8%) 
+leafbrushes            720/65536        1440/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            14589/512000      58356/2048000  ( 2.8%) 
+edges                 8805/256000      35220/1024000  ( 3.4%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            286/32768        2860/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5316/65536       10632/131072   ( 8.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1119032/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      244409/393216   (62.2%) 
+LDR ambient table     1463/65536        5852/262144   ( 2.2%) 
+HDR ambient table     1463/65536        5852/262144   ( 2.2%) 
+LDR leaf ambient      2128/65536       59584/1835008  ( 3.2%) 
+HDR leaf ambient      1463/65536       40964/1835008  ( 2.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11322    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      166811/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5777
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\testmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity infodecal (899.65 -399.18 140.46) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (159000 bytes)
+Error! prop_static using model "models/props_c17/furnitureradiator001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnitureradiator001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer002a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituretable001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituretable001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 735 texinfos to 418
+Reduced 38 texdatas to 35 (860 bytes to 794)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1791 faces
+144285 square feet [20777076.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0158 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                429/8192         5148/98304    ( 5.2%) 
+brushsides            2586/65536       20688/524288   ( 3.9%) 
+planes                1252/65536       25040/1310720  ( 1.9%) 
+vertexes              3594/65536       43128/786432   ( 5.5%) 
+nodes                 1335/65536       42720/2097152  ( 2.0%) 
+texinfos               418/12288       30096/884736   ( 3.4%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1791/65536      100296/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1101/65536       61656/3670016  ( 1.7%) 
+leaves                1357/65536       43424/2097152  ( 2.1%) 
+leaffaces             2272/65536        4544/131072   ( 3.5%) 
+leafbrushes            636/65536        1272/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13191/512000      52764/2048000  ( 2.6%) 
+edges                 8037/256000      32148/1024000  ( 3.1%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            260/32768        2600/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4722/65536        9444/131072   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      757836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      244022/393216   (62.1%) 
+LDR ambient table     1357/65536        5428/262144   ( 2.1%) 
+HDR ambient table     1357/65536        5428/262144   ( 2.1%) 
+LDR leaf ambient      2249/65536       62972/1835008  ( 3.4%) 
+HDR leaf ambient      1357/65536       37996/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      159000/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5205
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1791 faces
+144285 square feet [20777076.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0170 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                429/8192         5148/98304    ( 5.2%) 
+brushsides            2586/65536       20688/524288   ( 3.9%) 
+planes                1252/65536       25040/1310720  ( 1.9%) 
+vertexes              3594/65536       43128/786432   ( 5.5%) 
+nodes                 1335/65536       42720/2097152  ( 2.0%) 
+texinfos               418/12288       30096/884736   ( 3.4%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1791/65536      100296/3670016  ( 2.7%) 
+hdr faces             1791/65536      100296/3670016  ( 2.7%) 
+origfaces             1101/65536       61656/3670016  ( 1.7%) 
+leaves                1357/65536       43424/2097152  ( 2.1%) 
+leaffaces             2272/65536        4544/131072   ( 3.5%) 
+leafbrushes            636/65536        1272/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13191/512000      52764/2048000  ( 2.6%) 
+edges                 8037/256000      32148/1024000  ( 3.1%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights         76/8192         6688/720896   ( 0.9%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            260/32768        2600/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4722/65536        9444/131072   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      757836/0        ( 0.0%) 
+HDR lightdata         [variable]      757836/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      244022/393216   (62.1%) 
+LDR ambient table     1357/65536        5428/262144   ( 2.1%) 
+HDR ambient table     1357/65536        5428/262144   ( 2.1%) 
+LDR leaf ambient      2249/65536       62972/1835008  ( 3.4%) 
+HDR leaf ambient      2250/65536       63000/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      159000/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5205
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+15 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\testmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity infodecal (899.65 -399.18 140.46) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (158736 bytes)
+Error! prop_static using model "models/props_c17/furnitureradiator001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnitureradiator001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer002a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituretable001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituretable001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 732 texinfos to 418
+Reduced 38 texdatas to 35 (860 bytes to 794)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1794 faces
+144302 square feet [20779572.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0151 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                428/8192         5136/98304    ( 5.2%) 
+brushsides            2580/65536       20640/524288   ( 3.9%) 
+planes                1252/65536       25040/1310720  ( 1.9%) 
+vertexes              3595/65536       43140/786432   ( 5.5%) 
+nodes                 1334/65536       42688/2097152  ( 2.0%) 
+texinfos               418/12288       30096/884736   ( 3.4%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1794/65536      100464/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1103/65536       61768/3670016  ( 1.7%) 
+leaves                1356/65536       43392/2097152  ( 2.1%) 
+leaffaces             2270/65536        4540/131072   ( 3.5%) 
+leafbrushes            635/65536        1270/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13212/512000      52848/2048000  ( 2.6%) 
+edges                 8044/256000      32176/1024000  ( 3.1%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4740/65536        9480/131072   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      758748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      243638/393216   (62.0%) 
+LDR ambient table     1356/65536        5424/262144   ( 2.1%) 
+HDR ambient table     1356/65536        5424/262144   ( 2.1%) 
+LDR leaf ambient      2261/65536       63308/1835008  ( 3.5%) 
+HDR leaf ambient      1356/65536       37968/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      158736/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5212
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1794 faces
+144302 square feet [20779572.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0184 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                428/8192         5136/98304    ( 5.2%) 
+brushsides            2580/65536       20640/524288   ( 3.9%) 
+planes                1252/65536       25040/1310720  ( 1.9%) 
+vertexes              3595/65536       43140/786432   ( 5.5%) 
+nodes                 1334/65536       42688/2097152  ( 2.0%) 
+texinfos               418/12288       30096/884736   ( 3.4%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1794/65536      100464/3670016  ( 2.7%) 
+hdr faces             1794/65536      100464/3670016  ( 2.7%) 
+origfaces             1103/65536       61768/3670016  ( 1.7%) 
+leaves                1356/65536       43392/2097152  ( 2.1%) 
+leaffaces             2270/65536        4540/131072   ( 3.5%) 
+leafbrushes            635/65536        1270/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13212/512000      52848/2048000  ( 2.6%) 
+edges                 8044/256000      32176/1024000  ( 3.1%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights         76/8192         6688/720896   ( 0.9%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4740/65536        9480/131072   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      758748/0        ( 0.0%) 
+HDR lightdata         [variable]      758748/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      243638/393216   (62.0%) 
+LDR ambient table     1356/65536        5424/262144   ( 2.1%) 
+HDR ambient table     1356/65536        5424/262144   ( 2.1%) 
+LDR leaf ambient      2261/65536       63308/1835008  ( 3.5%) 
+HDR leaf ambient      2261/65536       63308/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      158736/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5212
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+17 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\testmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity infodecal (899.65 -399.18 140.46) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (157634 bytes)
+Error! prop_static using model "models/props_c17/furnitureradiator001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnitureradiator001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer002a.mdl"!
+Error! prop_static using model "models/props_c17/furnituredrawer001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituredrawer001a.mdl"!
+Error! prop_static using model "models/props_c17/furnituretable001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furnituretable001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 720 texinfos to 412
+Reduced 37 texdatas to 34 (837 bytes to 771)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1776 faces
+142561 square feet [20528824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0151 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes                426/8192         5112/98304    ( 5.2%) 
+brushsides            2568/65536       20544/524288   ( 3.9%) 
+planes                1228/65536       24560/1310720  ( 1.9%) 
+vertexes              3571/65536       42852/786432   ( 5.4%) 
+nodes                 1322/65536       42304/2097152  ( 2.0%) 
+texinfos               412/12288       29664/884736   ( 3.4%) 
+texdata                 34/2048         1088/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1776/65536       99456/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1093/65536       61208/3670016  ( 1.7%) 
+leaves                1342/65536       42944/2097152  ( 2.0%) 
+leaffaces             2252/65536        4504/131072   ( 3.4%) 
+leafbrushes            633/65536        1266/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13100/512000      52400/2048000  ( 2.6%) 
+edges                 7984/256000      31936/1024000  ( 3.1%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4740/65536        9480/131072   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      751936/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      242481/393216   (61.7%) 
+LDR ambient table     1342/65536        5368/262144   ( 2.0%) 
+HDR ambient table     1342/65536        5368/262144   ( 2.0%) 
+LDR leaf ambient      2151/65536       60228/1835008  ( 3.3%) 
+HDR leaf ambient      1342/65536       37576/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      157634/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5176
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+No vis information, direct lighting only.
+1776 faces
+142561 square feet [20528824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0171 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+9 of 11 (81% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes                426/8192         5112/98304    ( 5.2%) 
+brushsides            2568/65536       20544/524288   ( 3.9%) 
+planes                1228/65536       24560/1310720  ( 1.9%) 
+vertexes              3571/65536       42852/786432   ( 5.4%) 
+nodes                 1322/65536       42304/2097152  ( 2.0%) 
+texinfos               412/12288       29664/884736   ( 3.4%) 
+texdata                 34/2048         1088/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1776/65536       99456/3670016  ( 2.7%) 
+hdr faces             1776/65536       99456/3670016  ( 2.7%) 
+origfaces             1093/65536       61208/3670016  ( 1.7%) 
+leaves                1342/65536       42944/2097152  ( 2.0%) 
+leaffaces             2252/65536        4504/131072   ( 3.4%) 
+leafbrushes            633/65536        1266/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13100/512000      52400/2048000  ( 2.6%) 
+edges                 7984/256000      31936/1024000  ( 3.1%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights         76/8192         6688/720896   ( 0.9%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4740/65536        9480/131072   ( 7.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      751936/0        ( 0.0%) 
+HDR lightdata         [variable]      751936/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      242481/393216   (61.7%) 
+LDR ambient table     1342/65536        5368/262144   ( 2.0%) 
+HDR ambient table     1342/65536        5368/262144   ( 2.0%) 
+LDR leaf ambient      2151/65536       60228/1835008  ( 3.3%) 
+HDR leaf ambient      2151/65536       60228/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11318    ( 0.0%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]      157634/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5176
+Writing c:\program files (x86)\steam\steamapps\sourcemods\testmod\resource\hammer\Level1.bsp
+16 seconds elapsed
