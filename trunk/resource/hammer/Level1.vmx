@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "480"
+	"mapversion" "482"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "480"
+	"mapversion" "482"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -413,7 +413,7 @@ world
 		{
 			"id" "451"
 			"plane" "(1600 -448 0) (1792 -448 0) (1792 -640 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -489,7 +489,7 @@ world
 		{
 			"id" "457"
 			"plane" "(1408 -448 0) (1408 960 0) (1792 960 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1021,7 +1021,7 @@ world
 		{
 			"id" "570"
 			"plane" "(1472 -640 0) (1792 -640 0) (1792 -1024 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2161,7 +2161,7 @@ world
 		{
 			"id" "886"
 			"plane" "(1376 -352 0) (1376 -64 0) (1472 -64 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2237,7 +2237,7 @@ world
 		{
 			"id" "892"
 			"plane" "(1280 -192 0) (1280 -64 0) (1376 -64 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3377,7 +3377,7 @@ world
 		{
 			"id" "1672"
 			"plane" "(1120 -1024 0) (1120 288 0) (1280 288 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3833,7 +3833,7 @@ world
 		{
 			"id" "1750"
 			"plane" "(800 -352 0) (1152 -352 0) (1152 -448 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -6721,7 +6721,7 @@ world
 		{
 			"id" "3135"
 			"plane" "(1280 -64 0) (1280 128 0) (1408 128 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -30472,7 +30472,7 @@ world
 		{
 			"id" "3576"
 			"plane" "(736 640 0) (928 640 0) (928 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -30527,7 +30527,7 @@ world
 		{
 			"id" "3584"
 			"plane" "(736 640 0) (928 640 0) (928 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -30692,7 +30692,7 @@ world
 		{
 			"id" "4849"
 			"plane" "(544 640 0) (736 640 0) (736 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -30868,7 +30868,7 @@ world
 		{
 			"id" "4871"
 			"plane" "(-32 640 0) (160 640 0) (160 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -30923,7 +30923,7 @@ world
 		{
 			"id" "4879"
 			"plane" "(-32 640 0) (160 640 0) (160 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31077,7 +31077,7 @@ world
 		{
 			"id" "4903"
 			"plane" "(-224 640 0) (-32 640 0) (-32 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31253,7 +31253,7 @@ world
 		{
 			"id" "4925"
 			"plane" "(-832 640 0) (-640 640 0) (-640 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31308,7 +31308,7 @@ world
 		{
 			"id" "4933"
 			"plane" "(-832 640 0) (-640 640 0) (-640 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31385,7 +31385,7 @@ world
 		{
 			"id" "4939"
 			"plane" "(-832 640 0) (-640 640 0) (-640 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31484,7 +31484,7 @@ world
 		{
 			"id" "4949"
 			"plane" "(-1024 640 0) (-832 640 0) (-832 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31539,7 +31539,7 @@ world
 		{
 			"id" "4957"
 			"plane" "(-1024 640 0) (-832 640 0) (-832 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31616,7 +31616,7 @@ world
 		{
 			"id" "4963"
 			"plane" "(-1024 640 0) (-832 640 0) (-832 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31715,7 +31715,7 @@ world
 		{
 			"id" "4979"
 			"plane" "(-608 288 0) (-416 288 0) (-416 -352 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31770,7 +31770,7 @@ world
 		{
 			"id" "5017"
 			"plane" "(-736 -256 0) (-736 160 0) (-608 160 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31935,7 +31935,7 @@ world
 		{
 			"id" "6924"
 			"plane" "(-740 -351 0) (-1152 -351 0) (-1152 289 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 4] 0.25"
 			"rotation" "0"
@@ -32078,7 +32078,7 @@ world
 		{
 			"id" "6937"
 			"plane" "(-740 160 0) (-740 280 0) (-608 280 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32177,7 +32177,7 @@ world
 		{
 			"id" "4997"
 			"plane" "(-736 -1024 0) (-1152 -1024 0) (-1152 -351 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32232,7 +32232,7 @@ world
 		{
 			"id" "5047"
 			"plane" "(-608 -1024 0) (-736 -1024 0) (-736 -831.714 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32309,7 +32309,7 @@ world
 		{
 			"id" "6913"
 			"plane" "(-736 -514 0) (-736 -384 0) (-608 -384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32397,7 +32397,7 @@ world
 		{
 			"id" "5106"
 			"plane" "(704 -447.143 0) (704 -351 0) (800 -351 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32474,7 +32474,7 @@ world
 		{
 			"id" "5112"
 			"plane" "(800 -639.429 0) (800 -1024 0) (704 -1024 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32540,7 +32540,7 @@ world
 		{
 			"id" "5305"
 			"plane" "(576 -447.143 0) (576 -351 0) (704 -351 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32617,7 +32617,7 @@ world
 		{
 			"id" "5311"
 			"plane" "(704 -1024 0) (576 -1024 0) (576 -639.429 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32716,7 +32716,7 @@ world
 		{
 			"id" "5465"
 			"plane" "(-192 -1024 0) (-608 -1024 0) (-608 -351 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32793,7 +32793,7 @@ world
 		{
 			"id" "5471"
 			"plane" "(576 -1024 0) (64 -1024 0) (64 -351 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32848,7 +32848,7 @@ world
 		{
 			"id" "5479"
 			"plane" "(-192 -447.143 0) (-192 -351 0) (64 -351 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -32925,7 +32925,7 @@ world
 		{
 			"id" "5485"
 			"plane" "(64 -1024 0) (-192 -1024 0) (-192 -639.429 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -33024,7 +33024,7 @@ world
 		{
 			"id" "5057"
 			"plane" "(704 -448 0) (832 -448 0) (832 -640 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -33090,7 +33090,7 @@ world
 		{
 			"id" "5064"
 			"plane" "(704 -448 0) (832 -448 0) (832 -640 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -33178,7 +33178,7 @@ world
 		{
 			"id" "5135"
 			"plane" "(1344 -448 2.68221e-006) (1472 -448 2.68221e-006) (1472 -640 2.68221e-006)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -33233,7 +33233,7 @@ world
 		{
 			"id" "5143"
 			"plane" "(1344 -448 2.68221e-006) (1472 -448 2.68221e-006) (1472 -640 2.68221e-006)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -33310,7 +33310,7 @@ world
 		{
 			"id" "5149"
 			"plane" "(1344 -448 2.68221e-006) (1472 -448 2.68221e-006) (1472 -640 2.68221e-006)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -60920,7 +60920,7 @@ entity
 {
 	"id" "149177"
 	"classname" "trigger_changelevel"
-	"landmark" "Level_one_landmark"
+	"landmark" "Level_End_landmark"
 	"map" "levelEnd"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -61072,8 +61072,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-205.45 -163.607 -140.24]"
-		"look" "[-206.271 -163.648 -140.83]"
+		"position" "[-252.453 -153.823 -168.168]"
+		"look" "[-253.381 -153.812 -168.574]"
 	}
 }
 cordon
