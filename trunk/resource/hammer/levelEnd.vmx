@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "245"
+	"mapversion" "246"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "245"
+	"mapversion" "246"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -27585,7 +27585,7 @@ entity
 {
 	"id" "27826"
 	"classname" "trigger_changelevel"
-	"landmark" "land1"
+	"landmark" "land2"
 	"map" "level1"
 	"spawnflags" "0"
 	"StartDisabled" "0"
