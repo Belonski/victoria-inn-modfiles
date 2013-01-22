@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Victoria_textures\BloodyHands"
+	"$translucent" 1
+	"$decal" "1"
+	"$decalscale" "0.1"
+}
