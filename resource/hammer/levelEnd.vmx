@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "246"
+	"mapversion" "248"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "246"
+	"mapversion" "248"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -27583,20 +27583,34 @@ entity
 }
 entity
 {
-	"id" "27826"
+	"id" "30121"
+	"classname" "info_landmark"
+	"targetname" "land2"
+	"origin" "917.812 -1380.06 201"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "30675"
 	"classname" "trigger_changelevel"
 	"landmark" "land2"
-	"map" "level1"
+	"map" "Level1"
 	"spawnflags" "0"
 	"StartDisabled" "0"
-	"targetname" "ToLevel1"
+	"targetname" "tolevel1"
 	solid
 	{
-		"id" "27824"
+		"id" "30673"
 		side
 		{
-			"id" "6438"
-			"plane" "(717 -1188 396) (793 -1188 396) (793 -1282 396)"
+			"id" "6426"
+			"plane" "(882 -1344 303) (896 -1344 303) (896 -1408 303)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -27606,8 +27620,8 @@ entity
 		}
 		side
 		{
-			"id" "6437"
-			"plane" "(717 -1282 312) (793 -1282 312) (793 -1188 312)"
+			"id" "6425"
+			"plane" "(882 -1408 193) (896 -1408 193) (896 -1344 193)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -27617,8 +27631,8 @@ entity
 		}
 		side
 		{
-			"id" "6436"
-			"plane" "(717 -1188 396) (717 -1282 396) (717 -1282 312)"
+			"id" "6424"
+			"plane" "(882 -1344 303) (882 -1408 303) (882 -1408 193)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -27628,8 +27642,8 @@ entity
 		}
 		side
 		{
-			"id" "6435"
-			"plane" "(793 -1188 312) (793 -1282 312) (793 -1282 396)"
+			"id" "6423"
+			"plane" "(896 -1344 193) (896 -1408 193) (896 -1408 303)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -27639,9 +27653,9 @@ entity
 		}
 		side
 		{
-			"id" "6434"
-			"plane" "(793 -1188 396) (717 -1188 396) (717 -1188 312)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"id" "6422"
+			"plane" "(896 -1344 303) (882 -1344 303) (882 -1344 193)"
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27650,9 +27664,9 @@ entity
 		}
 		side
 		{
-			"id" "6433"
-			"plane" "(793 -1282 312) (717 -1282 312) (717 -1282 396)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"id" "6421"
+			"plane" "(896 -1408 193) (882 -1408 193) (882 -1408 303)"
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27671,21 +27685,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 9500]"
-	}
-}
-entity
-{
-	"id" "30121"
-	"classname" "info_landmark"
-	"targetname" "land2"
-	"origin" "917.812 -1380.06 201"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
