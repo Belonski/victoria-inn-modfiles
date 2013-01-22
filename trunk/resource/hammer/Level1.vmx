@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "487"
+	"mapversion" "488"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "487"
+	"mapversion" "488"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -60920,7 +60920,7 @@ entity
 {
 	"id" "149177"
 	"classname" "trigger_changelevel"
-	"landmark" "land_one"
+	"landmark" "land_end"
 	"map" "levelEnd"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -61072,8 +61072,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-187.618 -296.028 -86.2239]"
-		"look" "[-186.668 -296.356 -86.3437]"
+		"position" "[-232.062 -182.005 -144.473]"
+		"look" "[-233.014 -182.114 -144.799]"
 	}
 }
 cordon
