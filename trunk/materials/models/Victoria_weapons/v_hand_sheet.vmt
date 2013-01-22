@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Victoria_weapons/v_hand_sheet"
+	"$model" "1"
+}
