@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "482"
+	"mapversion" "487"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "482"
+	"mapversion" "487"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34808,7 +34808,7 @@ entity
 		"" "light,SetFOV,,0,-1"
 		"" ",,,0,-1"
 	}
-	"origin" "1499.96 -972.378 1"
+	"origin" "-561 -226.378 1"
 	editor
 	{
 		"color" "0 255 0"
@@ -36535,7 +36535,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"targetname" "player"
-	"origin" "1564 -973 0"
+	"origin" "-496.96 -227 0"
 	editor
 	{
 		"color" "0 0 200"
@@ -60906,7 +60906,7 @@ entity
 {
 	"id" "149173"
 	"classname" "info_landmark"
-	"targetname" "Level_one_landmark"
+	"targetname" "land_one"
 	"origin" "-192.536 -318.546 -118"
 	editor
 	{
@@ -60920,7 +60920,7 @@ entity
 {
 	"id" "149177"
 	"classname" "trigger_changelevel"
-	"landmark" "Level_End_landmark"
+	"landmark" "land_one"
 	"map" "levelEnd"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -61072,8 +61072,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-252.453 -153.823 -168.168]"
-		"look" "[-253.381 -153.812 -168.574]"
+		"position" "[-187.618 -296.028 -86.2239]"
+		"look" "[-186.668 -296.356 -86.3437]"
 	}
 }
 cordon
