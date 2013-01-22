@@ -25,4 +25,5 @@ weapon_manifest
 	"file"		"scripts/weapon_shotgun.txt"
 	"file"		"scripts/weapon_smg1.txt"
 	"file"		"scripts/weapon_stunstick.txt"
+	"file"		"scripts/weapon_knife.txt"
 }
