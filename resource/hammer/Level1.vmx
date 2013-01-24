@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "495"
+	"mapversion" "527"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "495"
+	"mapversion" "527"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -207,8 +207,8 @@ world
 		{
 			"id" "46"
 			"plane" "(1792 -448 0) (1792 -352 0) (1792 -352 128)"
-			"material" "PLASTER/PLASTERWALL043C"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
+			"uaxis" "[0 1 0 341.333] 0.1875"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -370,7 +370,7 @@ world
 		{
 			"id" "258"
 			"plane" "(1472 -440 0) (1670 -440 0) (1670 -440 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -636,310 +636,6 @@ world
 	}
 	solid
 	{
-		"id" "1523"
-		side
-		{
-			"id" "469"
-			"plane" "(1473 -449 128) (1474 -449 128) (1474 -639 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "470"
-			"plane" "(1473 -639 -3.8147e-006) (1474 -639 -3.8147e-006) (1474 -449 -3.8147e-006)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[1 0 0 -12] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "471"
-			"plane" "(1473 -449 128) (1473 -639 128) (1473 -639 -3.8147e-006)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "472"
-			"plane" "(1474 -449 -3.8147e-006) (1474 -639 -3.8147e-006) (1474 -639 128)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 504] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "473"
-			"plane" "(1474 -449 128) (1473 -449 128) (1473 -449 -3.8147e-006)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[1 0 0 -12] 0.25"
-			"vaxis" "[0 0 -1 504] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "474"
-			"plane" "(1474 -639 -3.8147e-006) (1473 -639 -3.8147e-006) (1473 -639 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 147 176"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "1537"
-		side
-		{
-			"id" "486"
-			"plane" "(1598 -639 128) (1598 -576 128) (1599 -576 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "485"
-			"plane" "(1598 -576 2.98023e-006) (1598 -639 2.98023e-006) (1599 -639 2.98023e-006)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[1 0 0 -504] 0.25"
-			"vaxis" "[0 -1 0 12] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "484"
-			"plane" "(1598 -639 2.98023e-006) (1598 -576 2.98023e-006) (1598 -576 128)"
-			"material" "TILE/TILEFLOOR019A"
-			"uaxis" "[0 1 0 -12] 0.25"
-			"vaxis" "[0 0 -1 504] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "483"
-			"plane" "(1599 -576 2.98023e-006) (1599 -639 2.98023e-006) (1599 -639 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "482"
-			"plane" "(1598 -576 2.98023e-006) (1599 -576 2.98023e-006) (1599 -576 128)"
-			"material" "TILE/TILEFLOOR019A"
-			"uaxis" "[1 0 0 -504] 0.25"
-			"vaxis" "[0 0 -1 504] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "481"
-			"plane" "(1599 -639 2.98023e-006) (1598 -639 2.98023e-006) (1598 -639 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 147 176"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "1545"
-		side
-		{
-			"id" "487"
-			"plane" "(1598 -512 128) (1598 -449 128) (1599 -449 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "488"
-			"plane" "(1598 -449 2.26498e-006) (1598 -512 2.26498e-006) (1599 -512 2.26498e-006)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "489"
-			"plane" "(1598 -512 2.26498e-006) (1598 -449 2.26498e-006) (1598 -449 128)"
-			"material" "TILE/TILEFLOOR019A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "490"
-			"plane" "(1599 -449 2.26498e-006) (1599 -512 2.26498e-006) (1599 -512 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "491"
-			"plane" "(1598 -449 2.26498e-006) (1599 -449 2.26498e-006) (1599 -449 128)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "492"
-			"plane" "(1599 -512 2.26498e-006) (1598 -512 2.26498e-006) (1598 -512 128)"
-			"material" "TILE/TILEFLOOR019A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 107 144"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "1549"
-		side
-		{
-			"id" "493"
-			"plane" "(1474 -639 128) (1474 -638 128) (1598 -638 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "494"
-			"plane" "(1474 -638 3.00796e-007) (1474 -639 3.00796e-007) (1598 -639 3.00796e-007)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 -236] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "495"
-			"plane" "(1474 -639 3.00796e-007) (1474 -638 3.00796e-007) (1474 -638 128)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[0 1 0 236] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "496"
-			"plane" "(1598 -638 3.00796e-007) (1598 -639 3.00796e-007) (1598 -639 128)"
-			"material" "PLASTER/PLASTERWALL026A"
-			"uaxis" "[0 1 0 236] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "497"
-			"plane" "(1474 -638 3.00796e-007) (1598 -638 3.00796e-007) (1598 -638 128)"
-			"material" "TILE/TILEFLOOR019A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "498"
-			"plane" "(1598 -639 3.00796e-007) (1474 -639 3.00796e-007) (1474 -639 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 191 136"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "1557"
 		side
 		{
@@ -1130,7 +826,7 @@ world
 		{
 			"id" "630"
 			"plane" "(1718 -440 0) (1792 -440 0) (1792 -440 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1206,7 +902,7 @@ world
 		{
 			"id" "654"
 			"plane" "(1718 -440 108) (1718 -440 128) (1670 -440 128)"
-			"material" "PLASTER/PLASTERWALL043E"
+			"material" "VICTORIA_TEXTURES/CORRIDOR4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1217,7 +913,7 @@ world
 		{
 			"id" "653"
 			"plane" "(1670 -450 108) (1670 -450 128) (1718 -450 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 56] 0.25"
 			"rotation" "0"
@@ -1282,7 +978,7 @@ world
 		{
 			"id" "673"
 			"plane" "(1474 -640 0) (1474 -1024 0) (1474 -1024 128)"
-			"material" "PLASTER/PLASTERWALL047A"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1369,7 +1065,7 @@ world
 		{
 			"id" "680"
 			"plane" "(1472 -1024 0) (1792 -1024 0) (1792 -1024 128)"
-			"material" "PLASTER/PLASTERWALL044B"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1423,7 +1119,7 @@ world
 		{
 			"id" "684"
 			"plane" "(1792 -1032 0) (1792 -448 0) (1792 -448 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE6"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -1] 0.25"
 			"rotation" "0"
@@ -1532,7 +1228,7 @@ world
 		{
 			"id" "693"
 			"plane" "(1670 -450 0) (1600 -450 0) (1600 -450 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[1 0 0 -438.857] 0.136719"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1608,7 +1304,7 @@ world
 		{
 			"id" "699"
 			"plane" "(1792 -450 0) (1718 -450 0) (1718 -450 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE6"
 			"uaxis" "[1 0 0 -110.703] 0.144531"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1628,7 +1324,7 @@ world
 		side
 		{
 			"id" "700"
-			"plane" "(1600 -450 128) (1601 -450 128) (1601 -521 128)"
+			"plane" "(1596 -521 128) (1596 -450 128) (1604 -450 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1639,7 +1335,7 @@ world
 		side
 		{
 			"id" "701"
-			"plane" "(1600 -521 0) (1601 -521 0) (1601 -450 0)"
+			"plane" "(1596 -450 0) (1596 -521 0) (1604 -521 0)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1650,9 +1346,9 @@ world
 		side
 		{
 			"id" "702"
-			"plane" "(1600 -450 128) (1600 -521 128) (1600 -521 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -48] 0.25"
+			"plane" "(1596 -521 0) (1596 -450 0) (1596 -450 128)"
+			"material" "TILE/TILEFLOOR019A"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1661,8 +1357,8 @@ world
 		side
 		{
 			"id" "703"
-			"plane" "(1601 -450 0) (1601 -521 0) (1601 -521 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"plane" "(1604 -450 0) (1604 -521 0) (1604 -521 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[0 1 0 173.07] 0.138672"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1672,7 +1368,7 @@ world
 		side
 		{
 			"id" "704"
-			"plane" "(1601 -450 128) (1600 -450 128) (1600 -450 0)"
+			"plane" "(1596 -450 0) (1604 -450 0) (1604 -450 128)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1683,7 +1379,7 @@ world
 		side
 		{
 			"id" "705"
-			"plane" "(1601 -521 0) (1600 -521 0) (1600 -521 128)"
+			"plane" "(1604 -521 0) (1596 -521 0) (1596 -521 128)"
 			"material" "WOOD/WOODSTAIR002C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1704,7 +1400,7 @@ world
 		side
 		{
 			"id" "741"
-			"plane" "(1598 -576 128) (1598 -512 128) (1601 -512 128)"
+			"plane" "(1596 -569 128) (1596 -521 128) (1604 -521 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1715,7 +1411,7 @@ world
 		side
 		{
 			"id" "740"
-			"plane" "(1598 -512 108) (1598 -512 128) (1598 -576 128)"
+			"plane" "(1596 -521 108) (1596 -521 128) (1596 -569 128)"
 			"material" "TILE/TILEFLOOR019A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1726,8 +1422,8 @@ world
 		side
 		{
 			"id" "739"
-			"plane" "(1601 -576 108) (1601 -576 128) (1601 -512 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"plane" "(1604 -569 108) (1604 -569 128) (1604 -521 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 56] 0.25"
 			"rotation" "0"
@@ -1737,7 +1433,7 @@ world
 		side
 		{
 			"id" "738"
-			"plane" "(1601 -512 108) (1601 -512 128) (1598 -512 128)"
+			"plane" "(1604 -521 108) (1604 -521 128) (1596 -521 128)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1748,7 +1444,7 @@ world
 		side
 		{
 			"id" "737"
-			"plane" "(1598 -576 108) (1598 -576 128) (1601 -576 128)"
+			"plane" "(1596 -569 108) (1596 -569 128) (1604 -569 128)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1759,7 +1455,7 @@ world
 		side
 		{
 			"id" "736"
-			"plane" "(1598 -512 108) (1598 -576 108) (1601 -576 108)"
+			"plane" "(1596 -521 108) (1596 -569 108) (1604 -569 108)"
 			"material" "WOOD/WOODSTAIR002C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1780,7 +1476,7 @@ world
 		side
 		{
 			"id" "742"
-			"plane" "(1600 -569 128) (1601 -569 128) (1601 -640 128)"
+			"plane" "(1596 -640 128) (1596 -569 128) (1604 -569 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1791,7 +1487,7 @@ world
 		side
 		{
 			"id" "743"
-			"plane" "(1600 -640 0) (1601 -640 0) (1601 -569 0)"
+			"plane" "(1596 -569 0) (1596 -640 0) (1604 -640 0)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1802,9 +1498,9 @@ world
 		side
 		{
 			"id" "744"
-			"plane" "(1600 -569 128) (1600 -640 128) (1600 -640 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -48] 0.25"
+			"plane" "(1596 -640 0) (1596 -569 0) (1596 -569 128)"
+			"material" "TILE/TILEFLOOR019A"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1813,8 +1509,8 @@ world
 		side
 		{
 			"id" "745"
-			"plane" "(1601 -569 0) (1601 -640 0) (1601 -640 128)"
-			"material" "VICTORIA_TEXTURES/WALLROOM"
+			"plane" "(1604 -569 0) (1604 -640 0) (1604 -640 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[0 1 0 7.21143] 0.138672"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1824,7 +1520,7 @@ world
 		side
 		{
 			"id" "746"
-			"plane" "(1601 -569 128) (1600 -569 128) (1600 -569 0)"
+			"plane" "(1596 -569 0) (1604 -569 0) (1604 -569 128)"
 			"material" "WOOD/WOODSTAIR002C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1835,7 +1531,7 @@ world
 		side
 		{
 			"id" "747"
-			"plane" "(1601 -640 0) (1600 -640 0) (1600 -640 128)"
+			"plane" "(1604 -640 0) (1596 -640 0) (1596 -640 128)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1856,7 +1552,7 @@ world
 		side
 		{
 			"id" "748"
-			"plane" "(1474 -640 128) (1601 -640 128) (1601 -641 128)"
+			"plane" "(1474 -641 128) (1474 -640 128) (1604 -640 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1867,7 +1563,7 @@ world
 		side
 		{
 			"id" "749"
-			"plane" "(1474 -641 0) (1601 -641 0) (1601 -640 0)"
+			"plane" "(1474 -640 0) (1474 -641 0) (1604 -641 0)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1878,7 +1574,7 @@ world
 		side
 		{
 			"id" "750"
-			"plane" "(1474 -640 128) (1474 -641 128) (1474 -641 0)"
+			"plane" "(1474 -641 0) (1474 -640 0) (1474 -640 128)"
 			"material" "PLASTER/PLASTERWALL039D"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1889,8 +1585,8 @@ world
 		side
 		{
 			"id" "751"
-			"plane" "(1601 -640 0) (1601 -641 0) (1601 -641 128)"
-			"material" "PLASTER/PLASTERWALL044B"
+			"plane" "(1604 -640 0) (1604 -641 0) (1604 -641 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1900,9 +1596,9 @@ world
 		side
 		{
 			"id" "752"
-			"plane" "(1601 -640 128) (1474 -640 128) (1474 -640 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -48] 0.25"
+			"plane" "(1474 -640 0) (1604 -640 0) (1604 -640 128)"
+			"material" "TILE/TILEFLOOR019A"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1911,8 +1607,8 @@ world
 		side
 		{
 			"id" "753"
-			"plane" "(1601 -641 0) (1474 -641 0) (1474 -641 128)"
-			"material" "PLASTER/PLASTERWALL047A"
+			"plane" "(1604 -641 0) (1474 -641 0) (1474 -641 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2008,7 +1704,7 @@ world
 		side
 		{
 			"id" "766"
-			"plane" "(1474 -638 128) (1474 -450 128) (1475 -450 128)"
+			"plane" "(1470 -640 128) (1470 -450 128) (1475 -450 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2019,7 +1715,7 @@ world
 		side
 		{
 			"id" "767"
-			"plane" "(1474 -450 3.00796e-007) (1474 -638 3.00796e-007) (1475 -638 3.00796e-007)"
+			"plane" "(1470 -450 0) (1470 -640 0) (1475 -640 0)"
 			"material" "METAL/METALWALL056A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2030,9 +1726,9 @@ world
 		side
 		{
 			"id" "768"
-			"plane" "(1474 -638 3.00796e-007) (1474 -450 3.00796e-007) (1474 -450 128)"
-			"material" "METAL/METALWALL056A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"plane" "(1470 -640 0) (1470 -450 0) (1470 -450 128)"
+			"material" "TILE/TILEFLOOR019A"
+			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2041,7 +1737,7 @@ world
 		side
 		{
 			"id" "769"
-			"plane" "(1475 -450 3.00796e-007) (1475 -638 3.00796e-007) (1475 -638 128)"
+			"plane" "(1475 -450 0) (1475 -640 0) (1475 -640 128)"
 			"material" "TILE/TILEFLOOR019A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2052,7 +1748,7 @@ world
 		side
 		{
 			"id" "770"
-			"plane" "(1474 -450 3.00796e-007) (1475 -450 3.00796e-007) (1475 -450 128)"
+			"plane" "(1470 -450 0) (1475 -450 0) (1475 -450 128)"
 			"material" "METAL/METALWALL056A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2063,7 +1759,7 @@ world
 		side
 		{
 			"id" "771"
-			"plane" "(1475 -638 3.00796e-007) (1474 -638 3.00796e-007) (1474 -638 128)"
+			"plane" "(1475 -640 0) (1470 -640 0) (1470 -640 128)"
 			"material" "METAL/METALWALL056A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2107,7 +1803,7 @@ world
 		{
 			"id" "840"
 			"plane" "(1792 -352 0) (1792 -224 0) (1792 -224 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2433,7 +2129,7 @@ world
 		{
 			"id" "1046"
 			"plane" "(1200 -440 0) (1472 -440 0) (1472 -440 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2509,7 +2205,7 @@ world
 		{
 			"id" "1052"
 			"plane" "(1088 -440 0) (1152 -440 0) (1152 -440 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR6"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2737,7 +2433,7 @@ world
 		{
 			"id" "1070"
 			"plane" "(1024 -440 0) (1088 -440 0) (1088 -440 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR6"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3790,7 +3486,7 @@ world
 		{
 			"id" "1711"
 			"plane" "(1124 -341 0) (1124 -352 0) (1124 -352 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR6"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3964,7 +3660,7 @@ world
 		{
 			"id" "2284"
 			"plane" "(1792 959 0) (1280 959 0) (1280 959 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5864,7 +5560,7 @@ world
 		{
 			"id" "2841"
 			"plane" "(1280 960 0) (1120 960 0) (1120 960 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6678,7 +6374,7 @@ world
 		{
 			"id" "3061"
 			"plane" "(1124 289 0) (1124 288 0) (1124 288 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR4"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6873,7 +6569,7 @@ world
 		{
 			"id" "3262"
 			"plane" "(1280 129 0) (1280 385 0) (1408 385 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -13936,82 +13632,6 @@ world
 	}
 	solid
 	{
-		"id" "29554"
-		side
-		{
-			"id" "5163"
-			"plane" "(1472 -450 128) (1472 -640 128) (1471 -640 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 -48] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5162"
-			"plane" "(1472 -450 -7) (1472 -640 -7) (1472 -640 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5161"
-			"plane" "(1471 -640 -7) (1471 -450 -7) (1471 -450 128)"
-			"material" "TILE/TILEFLOOR019A"
-			"uaxis" "[0 -1 0 -255.999] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5160"
-			"plane" "(1472 -640 -7) (1471 -640 -7) (1471 -640 128)"
-			"material" "METAL/METALWALL056A"
-			"uaxis" "[-1 0 0 8] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5159"
-			"plane" "(1471 -450 -7) (1472 -450 -7) (1472 -450 128)"
-			"material" "METAL/METALWALL056A"
-			"uaxis" "[-1 0 0 8] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5158"
-			"plane" "(1472 -640 2.68221e-006) (1472 -448 2.68221e-006) (1344 -448 2.68221e-006)"
-			"material" "METAL/METALWALL056A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 211 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "29567"
 		side
 		{
@@ -14669,7 +14289,7 @@ world
 		{
 			"id" "5381"
 			"plane" "(-335 -440 0) (-64 -440 0) (-64 -440 128)"
-			"material" "PLASTER/PLASTERWALL045A"
+			"material" "PLASTER/PLASTERWALL043C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -14821,7 +14441,7 @@ world
 		{
 			"id" "5393"
 			"plane" "(-64 -440 0) (208 -440 0) (208 -440 128)"
-			"material" "PLASTER/PLASTERWALL046C"
+			"material" "PLASTER/PLASTERWALL043C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -15429,7 +15049,7 @@ world
 		{
 			"id" "5516"
 			"plane" "(1152 -440 108) (1200 -440 108) (1200 -440 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17166,7 +16786,7 @@ world
 		{
 			"id" "5653"
 			"plane" "(1124 -12 0) (1124 -17 0) (1124 -17 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17242,7 +16862,7 @@ world
 		{
 			"id" "5659"
 			"plane" "(1124 45 0) (1124 36 0) (1124 36 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17274,82 +16894,6 @@ world
 		editor
 		{
 			"color" "0 191 156"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "32584"
-		side
-		{
-			"id" "5662"
-			"plane" "(1116 -169 128) (1116 -161 128) (1124 -161 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5663"
-			"plane" "(1116 -161 0.5) (1116 -169 0.5) (1124 -169 0.5)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5664"
-			"plane" "(1116 -169 0.5) (1116 -161 0.5) (1116 -161 128)"
-			"material" "VEHICLE/RUBBERTRAINFLOOR001A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5665"
-			"plane" "(1124 -161 0.5) (1124 -169 0.5) (1124 -169 128)"
-			"material" "PLASTER/PLASTERWALL043C"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5666"
-			"plane" "(1116 -161 0.5) (1124 -161 0.5) (1124 -161 128)"
-			"material" "WOOD/WOODSTAIR002C"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5667"
-			"plane" "(1124 -169 0.5) (1116 -169 0.5) (1116 -169 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 133 118"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -17394,7 +16938,7 @@ world
 		{
 			"id" "5671"
 			"plane" "(1124 -107 0.5) (1124 -113 0.5) (1124 -113 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17436,7 +16980,7 @@ world
 		side
 		{
 			"id" "5674"
-			"plane" "(1116 -169 128) (1116 -108 128) (1124 -108 128)"
+			"plane" "(1116 -161 128) (1116 -113 128) (1124 -113 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -17447,7 +16991,7 @@ world
 		side
 		{
 			"id" "5675"
-			"plane" "(1116 -108 109) (1116 -169 109) (1124 -169 109)"
+			"plane" "(1116 -113 108) (1116 -161 108) (1124 -161 108)"
 			"material" "WOOD/WOODSTAIR002C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -17458,7 +17002,7 @@ world
 		side
 		{
 			"id" "5676"
-			"plane" "(1116 -169 109) (1116 -108 109) (1116 -108 128)"
+			"plane" "(1116 -161 108) (1116 -113 108) (1116 -113 128)"
 			"material" "VEHICLE/RUBBERTRAINFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -17469,8 +17013,8 @@ world
 		side
 		{
 			"id" "5677"
-			"plane" "(1124 -108 109) (1124 -169 109) (1124 -169 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"plane" "(1124 -113 108) (1124 -161 108) (1124 -161 128)"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17480,7 +17024,7 @@ world
 		side
 		{
 			"id" "5678"
-			"plane" "(1116 -108 109) (1124 -108 109) (1124 -108 128)"
+			"plane" "(1116 -113 108) (1124 -113 108) (1124 -113 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -17491,7 +17035,7 @@ world
 		side
 		{
 			"id" "5679"
-			"plane" "(1124 -169 109) (1116 -169 109) (1116 -169 128)"
+			"plane" "(1124 -161 108) (1116 -161 108) (1116 -161 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -17512,7 +17056,7 @@ world
 		side
 		{
 			"id" "5680"
-			"plane" "(1116 -17 128.25) (1116 44 128.25) (1124 44 128.25)"
+			"plane" "(1116 -12 128.25) (1116 36 128.25) (1124 36 128.25)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -17523,7 +17067,7 @@ world
 		side
 		{
 			"id" "5681"
-			"plane" "(1116 44 108) (1116 -17 108) (1124 -17 108)"
+			"plane" "(1116 36 108) (1116 -12 108) (1124 -12 108)"
 			"material" "WOOD/WOODSTAIR002C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -17534,7 +17078,7 @@ world
 		side
 		{
 			"id" "5682"
-			"plane" "(1116 -17 108) (1116 44 108) (1116 44 128.25)"
+			"plane" "(1116 -12 108) (1116 36 108) (1116 36 128.25)"
 			"material" "VEHICLE/RUBBERTRAINFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -17545,8 +17089,8 @@ world
 		side
 		{
 			"id" "5683"
-			"plane" "(1124 44 108) (1124 -17 108) (1124 -17 128.25)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"plane" "(1124 36 108) (1124 -12 108) (1124 -12 128.25)"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17556,7 +17100,7 @@ world
 		side
 		{
 			"id" "5684"
-			"plane" "(1116 44 108) (1124 44 108) (1124 44 128.25)"
+			"plane" "(1116 36 108) (1124 36 108) (1124 36 128.25)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -17567,7 +17111,7 @@ world
 		side
 		{
 			"id" "5685"
-			"plane" "(1124 -17 108) (1116 -17 108) (1116 -17 128.25)"
+			"plane" "(1124 -12 108) (1116 -12 108) (1116 -12 128.25)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -19131,7 +18675,7 @@ world
 		{
 			"id" "6294"
 			"plane" "(1272 -360 0) (1272 -352 0) (1272 -352 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19164,7 +18708,7 @@ world
 		{
 			"id" "6297"
 			"plane" "(1376 -360 0) (1272 -360 0) (1272 -360 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR3MATCH2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19229,7 +18773,7 @@ world
 		{
 			"id" "6305"
 			"plane" "(1680 -352 0) (1792 -352 0) (1792 -352 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19240,8 +18784,8 @@ world
 		{
 			"id" "6304"
 			"plane" "(1792 -360 0) (1680 -360 0) (1680 -360 128)"
-			"material" "PLASTER/PLASTERWALL043C"
-			"uaxis" "[1 0 0 -24] 0.25"
+			"material" "VICTORIA_TEXTURES/CORRIDOR3MATCH2"
+			"uaxis" "[1 0 0 0] 0.21875"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -19294,7 +18838,7 @@ world
 		{
 			"id" "6313"
 			"plane" "(1384 -297 -1) (1384 -352 -1) (1384 -352 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 4] 0.25"
 			"rotation" "0"
@@ -19381,7 +18925,7 @@ world
 		{
 			"id" "6320"
 			"plane" "(1476 -188 -1) (1792 -188 -1) (1792 -188 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19392,7 +18936,7 @@ world
 		{
 			"id" "6321"
 			"plane" "(1792 -196 -1) (1476 -196 -1) (1476 -196 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19435,7 +18979,7 @@ world
 		{
 			"id" "6324"
 			"plane" "(1272 -352 0) (1272 -192 0) (1272 -192 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19533,7 +19077,7 @@ world
 		{
 			"id" "6332"
 			"plane" "(1280 132 0) (1792 132 0) (1792 132 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE1"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19544,7 +19088,7 @@ world
 		{
 			"id" "6333"
 			"plane" "(1792 128 0) (1280 128 0) (1280 128 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19587,7 +19131,7 @@ world
 		{
 			"id" "6336"
 			"plane" "(1272 544 0) (1272 704 0) (1272 704 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[0 1 0 -56] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19685,7 +19229,7 @@ world
 		{
 			"id" "6344"
 			"plane" "(1409 639 -1) (1792 639 -1) (1792 639 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19696,7 +19240,7 @@ world
 		{
 			"id" "6345"
 			"plane" "(1792 448 -1) (1409 448 -1) (1409 448 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19739,7 +19283,7 @@ world
 		{
 			"id" "6360"
 			"plane" "(1272 385 0) (1272 544 0) (1272 544 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR3MATCH2"
 			"uaxis" "[0 1 0 -132] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19826,7 +19370,7 @@ world
 		{
 			"id" "6373"
 			"plane" "(1409 543 0) (1409 380 0) (1409 380 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19848,7 +19392,7 @@ world
 		{
 			"id" "6375"
 			"plane" "(1409 380 0) (1408 380 0) (1408 380 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19902,7 +19446,7 @@ world
 		{
 			"id" "6384"
 			"plane" "(1409 704 0) (1409 543 0) (1409 543 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -19989,7 +19533,7 @@ world
 		{
 			"id" "6392"
 			"plane" "(1280 712 0) (1319 712 0) (1319 712 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20096,7 +19640,7 @@ world
 		side
 		{
 			"id" "6418"
-			"plane" "(1280 -196 128) (1280 -188 128) (1377 -188 128)"
+			"plane" "(1280 -196 128) (1280 -188 128) (1376 -188 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -20107,7 +19651,7 @@ world
 		side
 		{
 			"id" "6419"
-			"plane" "(1280 -188 0) (1280 -196 0) (1377 -196 0)"
+			"plane" "(1280 -188 0) (1280 -196 0) (1376 -196 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -20129,7 +19673,7 @@ world
 		side
 		{
 			"id" "6421"
-			"plane" "(1377 -188 0) (1377 -196 0) (1377 -196 128)"
+			"plane" "(1376 -188 0) (1376 -196 0) (1376 -196 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -20140,8 +19684,8 @@ world
 		side
 		{
 			"id" "6422"
-			"plane" "(1280 -188 0) (1377 -188 0) (1377 -188 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"plane" "(1280 -188 0) (1376 -188 0) (1376 -188 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20151,7 +19695,7 @@ world
 		side
 		{
 			"id" "6423"
-			"plane" "(1377 -196 0) (1280 -196 0) (1280 -196 128)"
+			"plane" "(1376 -196 0) (1280 -196 0) (1280 -196 128)"
 			"material" "TILE/TILEFLOOR019A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -20217,7 +19761,7 @@ world
 		{
 			"id" "6431"
 			"plane" "(1376 -352 0) (1632 -352 0) (1632 -352 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20228,7 +19772,7 @@ world
 		{
 			"id" "6430"
 			"plane" "(1632 -360 0) (1376 -360 0) (1376 -360 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR3MATCH2"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20271,7 +19815,7 @@ world
 		{
 			"id" "6450"
 			"plane" "(1272 880 0) (1272 960 0) (1272 960 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20282,7 +19826,7 @@ world
 		{
 			"id" "6451"
 			"plane" "(1280 960 0) (1280 880 0) (1280 880 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20347,7 +19891,7 @@ world
 		{
 			"id" "6463"
 			"plane" "(1272 -192 0) (1272 64 0) (1272 64 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20358,7 +19902,7 @@ world
 		{
 			"id" "6462"
 			"plane" "(1280 64 0) (1280 -192 0) (1280 -192 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[0 1 0 -140] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20423,7 +19967,7 @@ world
 		{
 			"id" "6475"
 			"plane" "(1272 704 0) (1272 832 0) (1272 832 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 304] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20434,7 +19978,7 @@ world
 		{
 			"id" "6474"
 			"plane" "(1280 832 0) (1280 704 0) (1280 704 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[0 1 0 304] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20510,7 +20054,7 @@ world
 		{
 			"id" "6486"
 			"plane" "(1409 712 0) (1409 704 0) (1409 704 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20521,7 +20065,7 @@ world
 		{
 			"id" "6485"
 			"plane" "(1367 712 0) (1409 712 0) (1409 712 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[1 0 0 -248] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20575,7 +20119,7 @@ world
 		{
 			"id" "6499"
 			"plane" "(1272 64 0) (1272 298 0) (1272 298 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[0 1 0 272] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20586,7 +20130,7 @@ world
 		{
 			"id" "6498"
 			"plane" "(1280 298 0) (1280 64 0) (1280 64 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[0 1 0 272] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20684,7 +20228,7 @@ world
 		{
 			"id" "6507"
 			"plane" "(1320 380 0) (1280 380 0) (1280 380 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20760,7 +20304,7 @@ world
 		{
 			"id" "6514"
 			"plane" "(1408 380 0) (1367 380 0) (1367 380 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[1 0 0 -328] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20803,7 +20347,7 @@ world
 		{
 			"id" "6541"
 			"plane" "(1272 346 0) (1272 385 0) (1272 385 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR3MATCH2"
 			"uaxis" "[0 1 0 -76] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20814,7 +20358,7 @@ world
 		{
 			"id" "6540"
 			"plane" "(1280 385 0) (1280 346 0) (1280 346 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[0 1 0 -76] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20901,7 +20445,7 @@ world
 		{
 			"id" "6551"
 			"plane" "(1376 -188 -1) (1417 -188 -1) (1417 -188 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[1 0 0 368] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20912,7 +20456,7 @@ world
 		{
 			"id" "6550"
 			"plane" "(1417 -196 -1) (1376 -196 -1) (1376 -196 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 368] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20932,7 +20476,7 @@ world
 		side
 		{
 			"id" "6567"
-			"plane" "(1376 -249 128) (1376 -192 128) (1384 -192 128)"
+			"plane" "(1376 -249 128) (1376 -196 128) (1384 -196 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 52] 0.25"
@@ -20943,7 +20487,7 @@ world
 		side
 		{
 			"id" "6566"
-			"plane" "(1376 -192 -1) (1376 -249 -1) (1384 -249 -1)"
+			"plane" "(1376 -196 -1) (1376 -249 -1) (1384 -249 -1)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 52] 0.25"
@@ -20954,7 +20498,7 @@ world
 		side
 		{
 			"id" "6565"
-			"plane" "(1376 -249 -1) (1376 -192 -1) (1376 -192 128)"
+			"plane" "(1376 -249 -1) (1376 -196 -1) (1376 -196 128)"
 			"material" "TILE/TILEFLOOR019A"
 			"uaxis" "[0 1 0 -436] 0.25"
 			"vaxis" "[0 0 -1 4] 0.25"
@@ -20965,8 +20509,8 @@ world
 		side
 		{
 			"id" "6564"
-			"plane" "(1384 -192 -1) (1384 -249 -1) (1384 -249 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"plane" "(1384 -196 -1) (1384 -249 -1) (1384 -249 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 -436] 0.25"
 			"vaxis" "[0 0 -1 4] 0.25"
 			"rotation" "0"
@@ -20976,7 +20520,7 @@ world
 		side
 		{
 			"id" "6563"
-			"plane" "(1376 -192 -1) (1384 -192 -1) (1384 -192 128)"
+			"plane" "(1376 -196 -1) (1384 -196 -1) (1384 -196 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
 			"vaxis" "[0 0 -1 4] 0.25"
@@ -21107,7 +20651,7 @@ world
 		{
 			"id" "6810"
 			"plane" "(1640 784 128) (1640 784 0) (1640 792 0)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21129,7 +20673,7 @@ world
 		{
 			"id" "6812"
 			"plane" "(1640 792 128) (1640 792 0) (1792 792 0)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21140,7 +20684,7 @@ world
 		{
 			"id" "6813"
 			"plane" "(1640 784 0) (1640 784 128) (1792 784 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21183,7 +20727,7 @@ world
 		{
 			"id" "6829"
 			"plane" "(1640 784 0) (1640 784 128) (1588 712 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21194,7 +20738,7 @@ world
 		{
 			"id" "6828"
 			"plane" "(1592 712 0) (1592 712 128) (1644 784 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[0 1 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21259,7 +20803,7 @@ world
 		{
 			"id" "6834"
 			"plane" "(1640 960 128) (1640 896 128) (1640 896 0)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE6"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21270,7 +20814,7 @@ world
 		{
 			"id" "6835"
 			"plane" "(1644 960 0) (1644 896 0) (1644 896 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE6"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21335,7 +20879,7 @@ world
 		{
 			"id" "6847"
 			"plane" "(1640 840 128) (1640 792 128) (1640 792 0)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21346,7 +20890,7 @@ world
 		{
 			"id" "6846"
 			"plane" "(1644 840 0) (1644 792 0) (1644 792 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE6"
 			"uaxis" "[0 1 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21433,7 +20977,7 @@ world
 		{
 			"id" "6890"
 			"plane" "(1680 -352 128) (1632 -352 128) (1632 -352 108)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21444,8 +20988,8 @@ world
 		{
 			"id" "6891"
 			"plane" "(1680 -360 108) (1632 -360 108) (1632 -360 128)"
-			"material" "PLASTER/PLASTERWALL043C"
-			"uaxis" "[1 0 0 0] 0.25"
+			"material" "VICTORIA_TEXTURES/CORRIDOR2MATCH3"
+			"uaxis" "[1 0 0 0] 0.22"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -21498,7 +21042,7 @@ world
 		{
 			"id" "6895"
 			"plane" "(1384 -249 108) (1384 -297 108) (1384 -297 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21563,7 +21107,7 @@ world
 		{
 			"id" "6900"
 			"plane" "(1272 346 128) (1272 298 128) (1272 298 109)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR2MATCH3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21574,7 +21118,7 @@ world
 		{
 			"id" "6901"
 			"plane" "(1280 346 109) (1280 298 109) (1280 298 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21639,7 +21183,7 @@ world
 		{
 			"id" "6906"
 			"plane" "(1272 880 128) (1272 832 128) (1272 832 108)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21650,7 +21194,7 @@ world
 		{
 			"id" "6907"
 			"plane" "(1280 880 108) (1280 832 108) (1280 832 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21768,7 +21312,7 @@ world
 		side
 		{
 			"id" "7006"
-			"plane" "(1320 380 128) (1320 388 128) (1368 388 128)"
+			"plane" "(1320 380 128) (1320 388 128) (1367 388 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -21779,7 +21323,7 @@ world
 		side
 		{
 			"id" "7007"
-			"plane" "(1320 388 108) (1320 380 108) (1368 380 108)"
+			"plane" "(1320 388 108) (1320 380 108) (1367 380 108)"
 			"material" "WOOD/WOODSTAIR002C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -21801,7 +21345,7 @@ world
 		side
 		{
 			"id" "7009"
-			"plane" "(1368 388 108) (1368 380 108) (1368 380 128)"
+			"plane" "(1367 388 108) (1367 380 108) (1367 380 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -21812,7 +21356,7 @@ world
 		side
 		{
 			"id" "7010"
-			"plane" "(1320 388 108) (1368 388 108) (1368 388 128)"
+			"plane" "(1320 388 108) (1367 388 108) (1367 388 128)"
 			"material" "TILE/TILEFLOOR019A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -21823,8 +21367,8 @@ world
 		side
 		{
 			"id" "7011"
-			"plane" "(1368 380 108) (1320 380 108) (1320 380 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"plane" "(1367 380 108) (1320 380 108) (1320 380 128)"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE5"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -21867,7 +21411,7 @@ world
 		{
 			"id" "7015"
 			"plane" "(1280 544 0) (1280 708 0) (1408 708 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -21965,7 +21509,7 @@ world
 		{
 			"id" "7022"
 			"plane" "(1367 712 128) (1319 712 128) (1319 712 108)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22019,7 +21563,7 @@ world
 		{
 			"id" "7500"
 			"plane" "(1536 29 128) (1536 -94 128) (1536 -94 0)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 -1 0 116] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22030,7 +21574,7 @@ world
 		{
 			"id" "7501"
 			"plane" "(1555 29 0) (1555 -94 0) (1555 -94 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 376] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22041,7 +21585,7 @@ world
 		{
 			"id" "7502"
 			"plane" "(1555 29 128) (1536 29 128) (1536 29 0)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[-1 0 0 76] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22052,7 +21596,7 @@ world
 		{
 			"id" "7503"
 			"plane" "(1555 -94 0) (1536 -94 0) (1536 -94 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22855,7 +22399,7 @@ world
 		{
 			"id" "7627"
 			"plane" "(1540 230 0) (1540 353 0) (1540 353 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[0 -1 0 388] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22866,7 +22410,7 @@ world
 		{
 			"id" "7626"
 			"plane" "(1559 353 0) (1559 230 0) (1559 230 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[0 1 0 -408] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22877,7 +22421,7 @@ world
 		{
 			"id" "7625"
 			"plane" "(1540 353 0) (1559 353 0) (1559 353 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[-1 0 0 92] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -22888,7 +22432,7 @@ world
 		{
 			"id" "7624"
 			"plane" "(1559 230 0) (1540 230 0) (1540 230 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE2"
 			"uaxis" "[1 0 0 -16] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -30021,7 +29565,7 @@ world
 		{
 			"id" "2159"
 			"plane" "(1124 288 128) (1124 288 0) (1124 44.3933 0)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR4"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -30098,7 +29642,7 @@ world
 		{
 			"id" "2171"
 			"plane" "(1124 -16.5078 128) (1124 -16.5078 0) (1124 -107.861 0)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -30175,7 +29719,7 @@ world
 		{
 			"id" "2177"
 			"plane" "(1124 -168.762 0) (1124 -341 0) (1124 -341 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR6"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -30604,7 +30148,7 @@ world
 		{
 			"id" "3590"
 			"plane" "(736 640 0) (928 640 0) (928 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -30769,7 +30313,7 @@ world
 		{
 			"id" "4855"
 			"plane" "(544 640 0) (736 640 0) (736 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31000,7 +30544,7 @@ world
 		{
 			"id" "4885"
 			"plane" "(-32 640 0) (160 640 0) (160 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -31154,7 +30698,7 @@ world
 		{
 			"id" "4909"
 			"plane" "(-224 640 0) (-32 640 0) (-32 384 0)"
-			"material" "PROPS/CARPETFLOOR006A"
+			"material" "VICTORIA_TEXTURES/FLOORCARPETVI"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -33743,6 +33287,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "32584"
+		side
+		{
+			"id" "9519"
+			"plane" "(1116 -169 128) (1116 -161 128) (1124 -161 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9518"
+			"plane" "(1116 -161 0.5) (1116 -169 0.5) (1124 -169 0.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9517"
+			"plane" "(1116 -169 0.5) (1116 -161 0.5) (1116 -161 128)"
+			"material" "VEHICLE/RUBBERTRAINFLOOR001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9516"
+			"plane" "(1124 -161 0.5) (1124 -169 0.5) (1124 -169 128)"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9515"
+			"plane" "(1116 -161 0.5) (1124 -161 0.5) (1124 -161 128)"
+			"material" "WOOD/WOODSTAIR002C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9514"
+			"plane" "(1124 -169 0.5) (1116 -169 0.5) (1116 -169 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 133 118"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "15191"
@@ -34808,7 +34428,7 @@ entity
 		"" "light,SetFOV,,0,-1"
 		"" ",,,0,-1"
 	}
-	"origin" "-561 -226.378 1"
+	"origin" "1529 -938 1"
 	editor
 	{
 		"color" "0 255 0"
@@ -36535,7 +36155,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"targetname" "player"
-	"origin" "-496.96 -227 0"
+	"origin" "1577 -940 0"
 	editor
 	{
 		"color" "0 0 200"
@@ -38182,103 +37802,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8768]"
-	}
-}
-entity
-{
-	"id" "47855"
-	"classname" "trigger_once"
-	"origin" "1324.89 -276.24 64.5"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	connections
-	{
-		"OnTrigger" "scream,PlaySound,,0,1"
-		"OnTrigger" "shake_two,StartShake,,0,1"
-		"OnTrigger" "scream,FadeOut,10,1,1"
-	}
-	solid
-	{
-		"id" "47853"
-		side
-		{
-			"id" "6795"
-			"plane" "(1284 -349 128) (1284 -200 128) (1376 -200 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6794"
-			"plane" "(1284 -200 1) (1284 -349 1) (1376 -349 1)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6793"
-			"plane" "(1284 -349 1) (1284 -200 1) (1284 -200 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6792"
-			"plane" "(1376 -200 1) (1376 -349 1) (1376 -349 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6791"
-			"plane" "(1284 -200 1) (1376 -200 1) (1376 -200 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6790"
-			"plane" "(1376 -349 1) (1284 -349 1) (1284 -349 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
 	}
 }
 entity
@@ -40399,7 +39922,7 @@ entity
 		{
 			"id" "7201"
 			"plane" "(1792 -224 0) (1792 960 0) (1792 960 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"material" "VICTORIA_TEXTURES/ROOMTEXTURE3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -48004,7 +47527,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "2048"
+	"spawnflags" "0"
 	"spawnpos" "0"
 	"speed" "100"
 	"targetname" "safeboxdoor"
@@ -48110,7 +47633,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
 	"targetname" "keypad_button 9"
 	"unlocked_sentence" "0"
@@ -51675,7 +51198,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "474.578 694.167 5.15415"
+	"origin" "469 640 5.15415"
 	editor
 	{
 		"color" "0 0 200"
@@ -56622,44 +56145,6 @@ entity
 }
 entity
 {
-	"id" "119479"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "gman_templet"
-	"Template01" "human_charple"
-	connections
-	{
-		"OnEntitySpawned" "gman_counter,Add,,0,1"
-	}
-	"origin" "479.798 703.681 9"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 10500]"
-	}
-}
-entity
-{
-	"id" "119481"
-	"classname" "math_counter"
-	"targetname" "gman_counter"
-	connections
-	{
-		"OnHitMax" "gman_templet,Kill,,0,-1"
-	}
-	"origin" "479.787 732.066 9"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 11000]"
-	}
-}
-entity
-{
 	"id" "119612"
 	"classname" "prop_static"
 	"angles" "-65.5 0 0"
@@ -56768,7 +56253,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
 	"targetname" "keypad_button 8"
 	"unlocked_sentence" "0"
@@ -56878,7 +56363,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
 	"targetname" "keypad_button 7"
 	"unlocked_sentence" "0"
@@ -56989,9 +56474,9 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
-	"targetname" "keypad_button 6"
+	"targetname" "keypad_button 5"
 	"unlocked_sentence" "0"
 	"unlocked_sound" "0"
 	"wait" "3"
@@ -57099,7 +56584,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
 	"targetname" "keypad_button 4"
 	"unlocked_sentence" "0"
@@ -57209,9 +56694,9 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
-	"targetname" "keypad_button 5"
+	"targetname" "keypad_button 6"
 	"unlocked_sentence" "0"
 	"unlocked_sound" "0"
 	"wait" "3"
@@ -57319,7 +56804,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
 	"targetname" "keypad_button 3"
 	"unlocked_sentence" "0"
@@ -57430,7 +56915,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sounds" "0"
-	"spawnflags" "3072"
+	"spawnflags" "3073"
 	"speed" "5"
 	"targetname" "keypad_button 2"
 	"unlocked_sentence" "0"
@@ -57670,8 +57155,8 @@ entity
 		"OnCase04" "keypad_button 3,Lock,,0,-1"
 		"OnCase04" "keypad_button 7,Unlock,,0,-1"
 		"OnCase05" "keypad_button 7,Lock,,0,-1"
-		"OnCase05" "safeboxdoor,Unlock,,0.2,-1"
-		"OnCase05" "safeboxdoor,Open,,0.4,-1"
+		"OnCase05" "safeboxdoor,Unlock,,0,-1"
+		"OnCase05" "safeboxdoor,Open,,0.2,1"
 		"OnCase05" "prop_keypad,Skin,1,0,-1"
 	}
 	"origin" "-824.221 -829.344 9"
@@ -57845,45 +57330,6 @@ entity
 }
 entity
 {
-	"id" "122627"
-	"classname" "prop_dynamic"
-	"angles" "0 246.5 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/humans/charple03.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "human_charple"
-	"origin" "471 673 -5"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "124815"
 	"classname" "prop_static"
 	"angles" "0.500001 0 0"
@@ -57942,7 +57388,7 @@ entity
 		{
 			"id" "8701"
 			"plane" "(1120 960 0) (1120 376 0) (1120 376 128)"
-			"material" "PLASTER/PLASTERWALL043C"
+			"material" "VICTORIA_TEXTURES/CORRIDOR5"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -57995,150 +57441,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "124937"
-	"classname" "func_physbox"
-	"damagetoenablemotion" "0"
-	"Damagetype" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"explodemagnitude" "0"
-	"ExplodeRadius" "0"
-	"explosion" "0"
-	"forcetoenablemotion" "0"
-	"gibdir" "0 0 0"
-	"health" "0"
-	"massScale" "0"
-	"material" "2"
-	"nodamageforces" "0"
-	"notsolid" "0"
-	"origin" "1622 -849 5.11"
-	"PerformanceMode" "0"
-	"preferredcarryangles" "0 0 0"
-	"pressuredelay" "0"
-	"propdata" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"spawnflags" "524288"
-	"spawnobject" "0"
-	"targetname" "flare"
-	connections
-	{
-		"OnPlayerUse" "flarefire,Start,30,0,-1"
-		"OnPlayerUse" "testZombie,ForceInteractionWithNPC,,0,-1"
-	}
-	solid
-	{
-		"id" "124926"
-		side
-		{
-			"id" "8733"
-			"plane" "(1620 -843 6.61144) (1624 -843 6.61144) (1624 -855 6.61144)"
-			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 -28] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8732"
-			"plane" "(1620 -855 3.61144) (1624 -855 3.61144) (1624 -843 3.61144)"
-			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[-1 0 0 48] 0.25"
-			"vaxis" "[0 -1 0 -28] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8731"
-			"plane" "(1620 -843 6.61144) (1620 -855 6.61144) (1620 -855 3.61144)"
-			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[0 -1 0 -28] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8730"
-			"plane" "(1624 -843 3.61144) (1624 -855 3.61144) (1624 -855 6.61144)"
-			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[0 1 0 28] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8729"
-			"plane" "(1624 -843 6.61144) (1620 -843 6.61144) (1620 -843 3.61144)"
-			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[-1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8728"
-			"plane" "(1624 -855 3.61144) (1620 -855 3.61144) (1620 -855 6.61144)"
-			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "124947"
-	"classname" "env_flare"
-	"angles" "0 0 0"
-	"duration" "30"
-	"parentname" "flare"
-	"scale" "1"
-	"spawnflags" "8"
-	"targetname" "flarefire"
-	connections
-	{
-		"OnUser1" "testZombie,Wake,,0,-1"
-		"OnUser1" "testZombie,ForceInteractionWithNPC,,0,-1"
-	}
-	"origin" "1622 -855 5"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
 entity
@@ -60268,7 +59570,7 @@ entity
 	"id" "141496"
 	"classname" "env_screeneffect"
 	"targetname" "boom"
-	"type" "2"
+	"type" "1"
 	"origin" "1199.59 262 16"
 	editor
 	{
@@ -60866,7 +60168,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-448 -285 86"
+	"origin" "-447 -276 86"
 	editor
 	{
 		"color" "255 255 0"
@@ -60879,7 +60181,7 @@ entity
 {
 	"id" "149148"
 	"classname" "prop_static"
-	"angles" "0 271 -180"
+	"angles" "0 271 180"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -60892,8 +60194,8 @@ entity
 	"model" "models/victoria_furniture/evac.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
-	"solid" "6"
-	"origin" "1133 -62.0262 86"
+	"solid" "2"
+	"origin" "1161 -63 85"
 	editor
 	{
 		"color" "255 255 0"
@@ -61038,13 +60340,56 @@ entity
 		"logicalpos" "[0 5500]"
 	}
 }
+entity
+{
+	"id" "154172"
+	"classname" "prop_static"
+	"angles" "-89.5 180 180"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/victoria_furniture/tyngd_nonoo.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "724 -41 3"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "156605"
+	"classname" "weapon_knife"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "635 572 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-189.975 -320.419 -95.6863]"
-		"look" "[-189.965 -320.299 -96.6913]"
+		"position" "[468.164 493.727 87.7185]"
+		"look" "[467.838 492.902 87.2472]"
 	}
 }
 cordon
