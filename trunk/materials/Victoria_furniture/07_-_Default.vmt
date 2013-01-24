@@ -2,5 +2,5 @@
 {
 
 	 $model "1"
-	 $basetexture "Map _1/sheet"
+	 $basetexture "LightMetal/metalTexture"
 }
