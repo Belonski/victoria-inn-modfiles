@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "527"
+	"mapversion" "529"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "527"
+	"mapversion" "529"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -29516,6 +29516,82 @@ world
 	}
 	solid
 	{
+		"id" "32584"
+		side
+		{
+			"id" "9519"
+			"plane" "(1116 -169 128) (1116 -161 128) (1124 -161 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9518"
+			"plane" "(1116 -161 0.5) (1116 -169 0.5) (1124 -169 0.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9517"
+			"plane" "(1116 -169 0.5) (1116 -161 0.5) (1116 -161 128)"
+			"material" "VEHICLE/RUBBERTRAINFLOOR001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9516"
+			"plane" "(1124 -161 0.5) (1124 -169 0.5) (1124 -169 128)"
+			"material" "VICTORIA_TEXTURES/CORRIDOR1"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9515"
+			"plane" "(1116 -161 0.5) (1124 -161 0.5) (1124 -161 128)"
+			"material" "WOOD/WOODSTAIR002C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9514"
+			"plane" "(1124 -169 0.5) (1116 -169 0.5) (1116 -169 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 133 118"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "15187"
 		side
 		{
@@ -33283,82 +33359,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "82866"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "32584"
-		side
-		{
-			"id" "9519"
-			"plane" "(1116 -169 128) (1116 -161 128) (1124 -161 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9518"
-			"plane" "(1116 -161 0.5) (1116 -169 0.5) (1124 -169 0.5)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9517"
-			"plane" "(1116 -169 0.5) (1116 -161 0.5) (1116 -161 128)"
-			"material" "VEHICLE/RUBBERTRAINFLOOR001A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9516"
-			"plane" "(1124 -161 0.5) (1124 -169 0.5) (1124 -169 128)"
-			"material" "VICTORIA_TEXTURES/CORRIDOR1"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9515"
-			"plane" "(1116 -161 0.5) (1124 -161 0.5) (1124 -161 128)"
-			"material" "WOOD/WOODSTAIR002C"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9514"
-			"plane" "(1124 -169 0.5) (1116 -169 0.5) (1116 -169 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 133 118"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -50934,6 +50934,7 @@ entity
 	"id" "51139"
 	"classname" "vi_item_keycard"
 	"angles" "35 0 90"
+	"EntityId" "0"
 	"skin" "0"
 	"targetname" "keycard"
 	connections
@@ -51329,6 +51330,7 @@ entity
 	"id" "104164"
 	"classname" "vi_item_keycard"
 	"angles" "0 216 0"
+	"EntityId" "1"
 	"skin" "1"
 	"targetname" "elevator_key"
 	connections
@@ -55513,6 +55515,7 @@ entity
 	"id" "109076"
 	"classname" "vi_item_key"
 	"angles" "0 0 0"
+	"EntityId" "0"
 	"targetname" "scrub_key"
 	connections
 	{
@@ -60181,7 +60184,7 @@ entity
 {
 	"id" "149148"
 	"classname" "prop_static"
-	"angles" "0 271 180"
+	"angles" "0 271 -180"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -60195,7 +60198,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "2"
-	"origin" "1161 -63 85"
+	"origin" "1124 -65 85"
 	editor
 	{
 		"color" "255 255 0"
@@ -60388,8 +60391,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[468.164 493.727 87.7185]"
-		"look" "[467.838 492.902 87.2472]"
+		"position" "[994.248 -272.504 29.2775]"
+		"look" "[994.381 -273.437 28.9342]"
 	}
 }
 cordon
