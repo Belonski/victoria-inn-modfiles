@@ -1,0 +1,9 @@
+"npc_firstboss.scream"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"mon/scream.wav"
+}
