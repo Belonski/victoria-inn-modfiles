@@ -5,5 +5,29 @@
 	"pitch"		"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"mon/scream.wav"
+	"wave"		"firstBoss/scream.wav"
+}
+"npc_firstboss.growl"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{	
+		"wave"		"firstBoss/growl.wav"
+		"wave"		"firstBoss/growl2.wav"
+		"wave"		"firstBoss/growl3.wav"
+		"wave"		"firstBoss/growl4.wav"
+	}		
+}
+"npc_firstboss.step"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"firstBoss/step.wav"
 }
