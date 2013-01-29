@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Victoria_items/flare/W_grenadesheet"
+	"$envmap" "env_cubemap"	
+	"$basealphaenvmapmask" 1	
+	"$model" 1
+}
