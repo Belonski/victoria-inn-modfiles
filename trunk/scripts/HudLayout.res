@@ -1,5 +1,28 @@
 "Resource/HudLayout.res"
 {
+	HudHealthBarFill
+	{
+		"fieldName"             "HudHealthBarFill"
+        "xpos" "10"
+        "ypos" "10"
+        "wide" "256" 
+        "tall" "30"
+        "visible" "1"
+        "enabled" "1"
+        "PaintBackgroundType"   "2"
+	}
+	HudHealthBarBorder
+	{
+		"fieldName"             "HudHealthBarBorder"
+        "xpos" "10"
+        "ypos" "10"
+        "wide" "256" 
+        "tall" "30"
+        "visible" "1"
+        "enabled" "1"
+        "PaintBackgroundType"   "2"
+	}
+	//DEPRECATED : WE ARE NOT USING THIS ONE ANYMORE 
 	HudGameMessage
 	{
 		"fieldName"             "HudGameMessage"
@@ -11,7 +34,6 @@
         "enabled" "1"
         "PaintBackgroundType"   "2"
 	}
-
 	HudCameraRec
     {
             "fieldName"             "HudCameraRec"
