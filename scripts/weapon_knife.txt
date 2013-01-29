@@ -5,8 +5,8 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Knife"
 	"viewmodel"			"models/Victoria_weapons/v_knife.mdl"
-	"playermodel"			"models/Victoria_weapons/v_knife.mdl"
-	"anim_prefix"			"crowbar"
+	"playermodel"			"models/Victoria_weapons/w_knife.mdl"
+	"anim_prefix"			"knife"
 	"bucket"				"0"
 	"bucket_position"		"0"
 	"bucket_360"				"2"

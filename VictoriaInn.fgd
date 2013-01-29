@@ -62,4 +62,4 @@
 												 " This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades." +
 ]
 
-@PointClass base(Weapon) studio("models/Victoria_weapons/v_knife.mdl") = weapon_knife : "Knife" []
+@PointClass base(Weapon) studio("models/Victoria_weapons/w_knife.mdl") = weapon_knife : "Knife" []
