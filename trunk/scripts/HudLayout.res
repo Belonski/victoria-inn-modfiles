@@ -4,8 +4,8 @@
 	{
 		"fieldName"             "HudHealthBarFill"
         "xpos" "10"
-        "ypos" "10"
-        "wide" "256" 
+        "ypos" "11"
+        "wide" "300" 
         "tall" "32"
         "visible" "1"
         "enabled" "1"
