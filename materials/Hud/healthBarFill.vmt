@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+   "$basetexture" "hud/healthbarFill"
+   "$translucent"   "1"
+}
