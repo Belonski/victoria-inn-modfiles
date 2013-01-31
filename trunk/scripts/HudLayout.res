@@ -38,9 +38,9 @@
     {
             "fieldName"             "HudCameraRec"
             "xpos" "10"
-            "ypos" "345"
-            "wide" "128" 
-            "tall" "128"
+            "ypos" "0"
+            "wide" "3640" 
+            "tall" "3640"
             "visible" "1"
             "enabled" "1"
             "PaintBackgroundType"   "1"
@@ -50,8 +50,8 @@
             "fieldName"             "HudCameraSight"
             "xpos" "0"
             "ypos" "0"
-            "wide" "640" [$WIN32]
-            "tall" "480" [$WIN32]
+            "wide" "3640"
+            "tall" "3480"
             "visible" "1"
             "enabled" "1"
             "PaintBackgroundType"   "1"
@@ -59,9 +59,9 @@
     HudCameraBattery
     {
             "fieldName"             "HudCameraBattery"
-            "xpos" "r74"
+            "xpos" "0"
             "ypos" "10"
-            "wide" "64"
+            "wide" "3640"
             "tall" "32"
             "visible" "1"
             "enabled" "1"
