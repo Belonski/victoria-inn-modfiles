@@ -3,7 +3,7 @@
 	"channel"	"CHAN_AUTO"
 	"volume"	"VOL_NORM"
 	"pitch"		"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NORM"
+	"soundlevel"	"SNDLVL_110dB"
 
 	"wave"		"firstBoss/scream.wav"
 }
@@ -12,7 +12,7 @@
 	"channel"	"CHAN_AUTO"
 	"volume"	"VOL_NORM"
 	"pitch"		"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NORM"
+	"soundlevel"	"SNDLVL_110dB"
 
 	"rndwave"
 	{	
@@ -27,7 +27,7 @@
 	"channel"	"CHAN_AUTO"
 	"volume"	"VOL_NORM"
 	"pitch"		"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NORM"
+	"soundlevel"	"SNDLVL_110dB"
 
 	"wave"		"firstBoss/step.wav"
 }
