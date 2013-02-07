@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "562"
+	"mapversion" "563"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "562"
+	"mapversion" "563"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28946,8 +28946,8 @@ world
 		{
 			"id" "9846"
 			"plane" "(1670 -440 0) (1670 -448 0) (1670 -448 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -4] 0.25"
+			"material" "WOOD/WOODSTAIR002C"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -64353,33 +64353,6 @@ entity
 }
 entity
 {
-	"id" "186553"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/victoria_furniture/gymeguipmenttwo.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "2"
-	"origin" "604.66 -36 102"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "186575"
 	"classname" "info_node"
 	"nodeid" "62"
@@ -65544,13 +65517,39 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "194449"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/victoria_furniture/gymeguipmenttwo.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "515.84 -7 102"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-553.711 -361.313 80.4182]"
-		"look" "[-553.004 -362.027 80.3216]"
+		"position" "[1696.37 -398.795 93.1619]"
+		"look" "[1695.86 -399.638 93.3737]"
 	}
 }
 cordon
