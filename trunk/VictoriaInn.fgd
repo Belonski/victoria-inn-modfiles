@@ -15,7 +15,7 @@
 	EntityId(integer) : "Entity Id" : 0 :	"The Id of the element to be able to tell one entity from the other."
 ]
 
-@PointClass base(Targetname) studio("models/Victoria_items/keycard.mdl")= vi_item_tape : "Tape model entity."
+@PointClass base(Targetname) studio("models/Victoria_items/tape/tape.mdl")= vi_item_tape : "Tape model entity."
 [
 	output OnPlayerTouch(void) : "Tape found."
 
