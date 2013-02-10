@@ -427,8 +427,8 @@ event SuitLoop
 // ammo has been picked up
 event AmmoIncreased
 {
-	Animate HudAmmo		FgColor	"BrightFg"		Linear	0.0	0.15
-	Animate HudAmmo		FgColor	"FgColor"		Deaccel	0.15	1.5
+	Animate HudAmmo		FgColor	"255 255 255 255"		Linear	0.0	0.15
+	Animate HudAmmo		FgColor "255 255 255 255"		Deaccel	0.15	1.5
 	Animate HudAmmo		Blur		"5"			Linear	0.0	0.0 
 	Animate HudAmmo		Blur		"0"			Accel		0.01	1.5 
 }
@@ -455,8 +455,8 @@ event AmmoEmpty
 // ammo2 is the total ammo for a weapon that uses clip ammo
 event Ammo2Increased
 {
-	Animate Hudammo	ammo2color		"BrightFg"		Linear	0.0	0.2
-	Animate Hudammo	ammo2color		"FgColor"		Accel		0.2	1.2		
+	Animate Hudammo	ammo2color		"255 255 255 255"		Linear	0.0	0.2
+	Animate Hudammo	ammo2color		"255 255 255 255"		Accel		0.2	1.2		
 }
 
 // total ammo has been decreased, but there is still some remaining
@@ -475,8 +475,8 @@ event Ammo2Empty
 
 event AmmoSecondaryIncreased
 {
-	Animate HudAmmoSecondary		FgColor	"BrightFg"		Linear	0.0	0.15
-	Animate HudAmmoSecondary		FgColor	"FgColor"		Deaccel	0.15	1.5
+	Animate HudAmmoSecondary		FgColor	"255 255 255 255"		Linear	0.0	0.15
+	Animate HudAmmoSecondary		FgColor	"255 255 255 255"		Deaccel	0.15	1.5
 	Animate HudAmmoSecondary		Blur		"5"			Linear	0.0	0.0 
 	Animate HudAmmoSecondary		Blur		"0"			Accel		0.01	1.5 	
 }
@@ -603,11 +603,11 @@ event KeyHintMessageShow
 	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
 
 	// flash text
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.0 0.01
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 0.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.7 0.2
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 1.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 1.7 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 250" 	Linear 0.0 0.01
+	Animate HudHintKeyDisplay FgColor	"255 255 255 250" Linear 0.5 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 250" 	Linear 0.7 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 250" Linear 1.5 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 250" 	Linear 1.7 0.2
 
 	// hide the panel after a while	
 	Animate HudHintKeyDisplay Alpha	0 Linear 12.0 1.0
