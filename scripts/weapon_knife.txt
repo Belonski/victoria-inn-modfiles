@@ -13,7 +13,7 @@ WeaponData
 	"bucket_position_360"		"0"
 
 	"clip_size"				"-1"
-	"primary_ammo"			"Blade"
+	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
 
 	"weight"				"0"
