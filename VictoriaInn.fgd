@@ -48,6 +48,9 @@
 @NPCClass base(BaseNPC) studio("models/vortigaunt.mdl") = npc_firstBoss: "FirstBoss"
 [
 ]
+@NPCClass base(BaseNPC) studio("models/Zombie/Classic.mdl") = npc_secondmonster: "SecondMonster"
+[
+]
 
 //-------------------------------------------------------------------------
 //
