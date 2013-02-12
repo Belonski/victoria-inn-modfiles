@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Victoria_textures/bathroom2"
+	"$bumpmap" "Victoria_textures/bathroom2_nrm"
+	"$surfaceprop" "Glass"
+	"$envmap" "env_cubemap"
+}
