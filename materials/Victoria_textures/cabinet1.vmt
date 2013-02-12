@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Victoria_textures/cabinet1"
+	"$bumpmap" "Victoria_textures/cabinet1_nrm"
+	"$surfaceprop" "Wood_Furniture"
+}
