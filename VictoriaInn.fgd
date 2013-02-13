@@ -27,6 +27,11 @@
 	output OnPlayerTouch(void) : "Camera found."
 ]
 
+@PointClass base(Targetname) studio("models/items/boxsrounds.mdl")= vi_pistol_ammo : "Box of infinite Pistolammo" 
+[
+]
+
+
 @PointClass size( -4 -4 -4, 4 4 4 ) base(Targetname, Parentname, Angles) = env_item_flare : "Flare"
 [
 	scale(float) : "Scale" : 1
@@ -51,6 +56,8 @@
 @NPCClass base(BaseNPC) studio("models/Zombie/Classic.mdl") = npc_secondmonster: "SecondMonster"
 [
 ]
+
+
 
 //-------------------------------------------------------------------------
 //
