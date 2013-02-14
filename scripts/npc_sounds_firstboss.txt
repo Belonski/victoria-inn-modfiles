@@ -27,7 +27,7 @@
 	"channel"	"CHAN_AUTO"
 	"volume"	"VOL_NORM"
 	"pitch"		"PITCH_NORM"
-	"soundlevel"	"SNDLVL_110dB"
+	"soundlevel"	"SNDLVL_100dB"
 
 	"wave"		"firstBoss/step.wav"
 }
