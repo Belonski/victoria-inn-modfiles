@@ -141,9 +141,9 @@
 	HudAmmo	[$WIN32]
 	{
 		"fieldName" "HudAmmo"
-		"xpos"	"r150"
+		"xpos"	"r0"
 		"ypos"	"432"
-		"wide"	"136"
+		"wide"	"0"
 		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
@@ -152,7 +152,7 @@
 
 		"text_xpos" "8"
 		"text_ypos" "20"
-		"digit_xpos" "44"
+		"digit_xpos" "46"
 		"digit_ypos" "2"
 		"digit2_xpos" "98"
 		"digit2_ypos" "16"
