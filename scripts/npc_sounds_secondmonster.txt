@@ -1,0 +1,35 @@
+"npc_secondmonster.pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"pitch"		"95, 105"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"secondmonster/pain.wav"
+}
+"npc_secondmonster.growl"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"pitch"		"95, 105"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{	
+		"wave"		"secondmonster/growl.wav"
+		"wave"		"secondmonster/growl2.wav"
+		"wave"		"secondmonster/growl3.wav"
+		"wave"		"secondmonster/growl4.wav"
+	}		
+}
+"npc_secondmonster.attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"pitch"		"95, 105"
+	"soundlevel"	"SNDLVL_NORM"
+	
+	"wave"		"secondmonster/attack.wav"
+		
+			
+}
