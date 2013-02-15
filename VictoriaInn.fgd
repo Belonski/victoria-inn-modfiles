@@ -27,6 +27,11 @@
 	output OnPlayerTouch(void) : "Camera found."
 ]
 
+@PointClass base(Targetname) studio("models/Victoria_items/newspaper/newspaper.mdl")= vi_item_newspaper :  "Newspaper model entity."
+[
+	output OnPlayerTouch(void) : "Newspaper found."
+]
+
 @PointClass base(Targetname) studio("models/items/boxsrounds.mdl")= vi_pistol_ammo : "Box of infinite Pistolammo" 
 [
 ]
