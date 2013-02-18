@@ -5,5 +5,7 @@
 	 $basetexturetransform "center 0.5 0.5 scale 1.0 1.0 rotate 0.0 translate 0.0 0.0"
 	 $bumptransform "center 0.5 0.5 scale 1.0 1.0 rotate 0.0 translate 0.0 0.0"
 	 $basetexture "MetalTexture/metalTexture"
+	 "$surfaceprop" "metal"
+	 "$envmap" "env_cubemap"
 	
 }
