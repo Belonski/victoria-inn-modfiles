@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+   "$basetexture" "hud/newspaper2"
+   "$translucent"   "1"
+}
