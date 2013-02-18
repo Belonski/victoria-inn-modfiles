@@ -61,6 +61,9 @@
 @NPCClass base(BaseNPC) studio("models/Zombie/Classic.mdl") = npc_secondmonster: "SecondMonster"
 [
 ]
+@NPCClass base(BaseNPC) studio("models/zombie/fast.mdl") = npc_firstmonster: "FirstMonster"
+[
+]
 
 
 
