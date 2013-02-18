@@ -189,6 +189,16 @@
 
 	"wave"		 "common/null.wav" 
 }
+"Ambient"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		 "ingamemusic/testingamemusic2.wav"
+}
 
 
 
