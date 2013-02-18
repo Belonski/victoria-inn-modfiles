@@ -192,10 +192,10 @@
 "Ambient"
 {
 	"channel"	"CHAN_WEAPON"
-	"volume"	"VOL_NORM"
+	"volume"	"0.1"
 	"pitch"		"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_NORM"
+	"soundlevel"	"SNDLVL_45dB"
 
 	"wave"		 "ingamemusic/testingamemusic2.wav"
 }
