@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "662"
+	"mapversion" "671"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "662"
+	"mapversion" "671"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57374,7 +57374,6 @@ entity
 	connections
 	{
 		"OnLockedUse" "scrub_text,Display,,0,-1"
-		"OnClose" "scrub_room_sound,StopSound,,4,-1"
 	}
 	"origin" "-275 288 54"
 	editor
@@ -57397,16 +57396,9 @@ entity
 	"model" "models/props_c17/door01_left.mdl"
 	"returndelay" "-1"
 	"skin" "6"
-	"spawnflags" "10240"
+	"spawnflags" "8192"
 	"speed" "100"
 	"targetname" "scrum_door_2"
-	connections
-	{
-		"OnLockedUse" "stalker,Kill,,3,-1"
-		"OnLockedUse" "stalker_templet,ForceSpawn,,1,1"
-		"OnLockedUse" "scrub_room_sound,StopSound,,3,-1"
-		"OnLockedUse" "scrub_room_sound,PlaySound,,1,1"
-	}
 	"origin" "-417 161 53"
 	editor
 	{
@@ -78759,45 +78751,6 @@ entity
 }
 entity
 {
-	"id" "133623"
-	"classname" "prop_dynamic"
-	"angles" "0 206.5 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/stalker.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "stalker"
-	"origin" "-197 265 9"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 9500]"
-	}
-}
-entity
-{
 	"id" "133686"
 	"classname" "math_counter"
 	"max" "1"
@@ -79240,104 +79193,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "138831"
-	"classname" "trigger_once"
-	"origin" "-296 278 54"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "door_open_scrub_trigger"
-	connections
-	{
-		"OnStartTouch" "scrub_room,Close,,0,-1"
-		"OnStartTouch" "scrub_room,Lock,,0.5,-1"
-		"OnStartTouch" "scrum_door_2,Lock,,0,-1"
-	}
-	solid
-	{
-		"id" "138828"
-		side
-		{
-			"id" "9435"
-			"plane" "(-320 280 108.5) (-272 280 108.5) (-272 276 108.5)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 -32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9434"
-			"plane" "(-320 276 -0.5) (-272 276 -0.5) (-272 280 -0.5)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 -32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9433"
-			"plane" "(-320 280 108.5) (-320 276 108.5) (-320 276 -0.5)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9432"
-			"plane" "(-272 280 -0.5) (-272 276 -0.5) (-272 276 108.5)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9431"
-			"plane" "(-272 280 108.5) (-320 280 108.5) (-320 280 -0.5)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "9430"
-			"plane" "(-272 276 -0.5) (-320 276 -0.5) (-320 276 108.5)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
 	}
 }
 entity
@@ -87235,7 +87090,7 @@ entity
 {
 	"id" "243775"
 	"classname" "env_cubemap"
-	"origin" "461.972 -119 53"
+	"origin" "249 -55 84"
 	editor
 	{
 		"color" "0 0 255"
@@ -88138,15 +87993,2956 @@ entity
 }
 entity
 {
-	"id" "255964"
+	"id" "256017"
+	"classname" "info_node"
+	"nodeid" "131"
+	"origin" "681.868 187.798 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "256019"
+	"classname" "info_node"
+	"nodeid" "132"
+	"origin" "759.317 188.465 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "256021"
+	"classname" "info_node"
+	"nodeid" "133"
+	"origin" "588.877 197.913 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "256023"
+	"classname" "info_node"
+	"nodeid" "134"
+	"origin" "494.702 201.006 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "256025"
+	"classname" "info_node"
+	"nodeid" "135"
+	"origin" "494.748 133.153 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "256027"
+	"classname" "info_node"
+	"nodeid" "136"
+	"origin" "375.423 120.411 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "256029"
+	"classname" "info_node"
+	"nodeid" "137"
+	"origin" "260.233 120.881 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "256031"
+	"classname" "info_node"
+	"nodeid" "138"
+	"origin" "162.039 117.686 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "256033"
+	"classname" "info_node"
+	"nodeid" "139"
+	"origin" "72.9207 120.414 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "256035"
+	"classname" "info_node"
+	"nodeid" "140"
+	"origin" "-20.1335 107.592 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "256037"
+	"classname" "info_node"
+	"nodeid" "141"
+	"origin" "-149.59 -7.02044 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "256039"
+	"classname" "info_node"
+	"nodeid" "142"
+	"origin" "-47.4217 -7.37113 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "256041"
+	"classname" "info_node"
+	"nodeid" "143"
+	"origin" "81.9968 -11.4466 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "256043"
+	"classname" "info_node"
+	"nodeid" "144"
+	"origin" "218.75 -15.7459 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "256045"
+	"classname" "info_node"
+	"nodeid" "145"
+	"origin" "386.412 -21.0134 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "256047"
+	"classname" "info_node"
+	"nodeid" "146"
+	"origin" "579.625 -21.2671 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "256049"
+	"classname" "info_node"
+	"nodeid" "147"
+	"origin" "-236.566 -1.23889 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "256051"
+	"classname" "info_node"
+	"nodeid" "148"
+	"origin" "-236.892 -99.017 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "256053"
+	"classname" "info_node"
+	"nodeid" "149"
+	"origin" "-388.67 -96.5093 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "256055"
+	"classname" "info_node"
+	"nodeid" "150"
+	"origin" "-320.759 -94.7243 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "256057"
+	"classname" "info_node"
+	"nodeid" "151"
+	"origin" "-135.741 -101.911 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "256059"
+	"classname" "info_node"
+	"nodeid" "152"
+	"origin" "22.386 -101.838 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "256061"
+	"classname" "info_node"
+	"nodeid" "153"
+	"origin" "147.593 -102.659 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "256063"
+	"classname" "info_node"
+	"nodeid" "154"
+	"origin" "262.767 -106.108 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "256065"
+	"classname" "info_node"
+	"nodeid" "155"
+	"origin" "402.829 -120.54 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "256067"
+	"classname" "info_node"
+	"nodeid" "156"
+	"origin" "537.619 -126.935 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "256069"
+	"classname" "info_node"
+	"nodeid" "157"
+	"origin" "654.315 -136.956 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "256071"
+	"classname" "info_node"
+	"nodeid" "158"
+	"origin" "656.713 -14.8713 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "256073"
+	"classname" "info_node"
+	"nodeid" "159"
+	"origin" "759.183 -15.0623 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "256075"
+	"classname" "info_node"
+	"nodeid" "160"
+	"origin" "771.586 -140.951 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "256077"
+	"classname" "info_node"
+	"nodeid" "161"
+	"origin" "770.638 -252.192 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "256079"
+	"classname" "info_node"
+	"nodeid" "162"
+	"origin" "673.095 -259.95 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "256081"
+	"classname" "info_node"
+	"nodeid" "163"
+	"origin" "556.797 -248.167 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
+entity
+{
+	"id" "256083"
+	"classname" "info_node"
+	"nodeid" "164"
+	"origin" "223.813 -249.22 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "256085"
+	"classname" "info_node"
+	"nodeid" "165"
+	"origin" "229.93 -178.582 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "256087"
+	"classname" "info_node"
+	"nodeid" "166"
+	"origin" "85.2891 -201.598 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "256089"
+	"classname" "info_node"
+	"nodeid" "167"
+	"origin" "-11.1296 -199.425 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "256091"
+	"classname" "info_node"
+	"nodeid" "168"
+	"origin" "-185.186 -203.321 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "256093"
+	"classname" "info_node"
+	"nodeid" "169"
+	"origin" "-115.448 -305.699 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "256095"
+	"classname" "info_node"
+	"nodeid" "170"
+	"origin" "-24.7229 -308.152 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12768]"
+	}
+}
+entity
+{
+	"id" "256097"
+	"classname" "info_node"
+	"nodeid" "171"
+	"origin" "82.4945 -312.062 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12268]"
+	}
+}
+entity
+{
+	"id" "256099"
+	"classname" "info_node"
+	"nodeid" "172"
+	"origin" "218.948 -316.37 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "256101"
+	"classname" "info_node"
+	"nodeid" "173"
+	"origin" "292.051 -316.415 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
+entity
+{
+	"id" "256105"
+	"classname" "info_node"
+	"nodeid" "175"
+	"origin" "305.911 -240.019 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "256107"
+	"classname" "info_node"
+	"nodeid" "176"
+	"origin" "397.593 -260.313 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9768]"
+	}
+}
+entity
+{
+	"id" "256109"
+	"classname" "info_node"
+	"nodeid" "177"
+	"origin" "401.289 -317.053 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "256111"
+	"classname" "info_node"
+	"nodeid" "178"
+	"origin" "499.087 -320.97 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8768]"
+	}
+}
+entity
+{
+	"id" "256113"
+	"classname" "info_node"
+	"nodeid" "179"
+	"origin" "715.166 -318.259 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8268]"
+	}
+}
+entity
+{
+	"id" "256115"
+	"classname" "info_node"
+	"nodeid" "180"
+	"origin" "501.852 49.2934 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "256117"
+	"classname" "info_node"
+	"nodeid" "181"
+	"origin" "505.784 -34.4541 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7268]"
+	}
+}
+entity
+{
+	"id" "256119"
+	"classname" "info_node"
+	"nodeid" "182"
+	"origin" "598.396 85.4738 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
+	}
+}
+entity
+{
+	"id" "256121"
+	"classname" "info_node"
+	"nodeid" "183"
+	"origin" "716.898 80.8941 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "256123"
+	"classname" "info_node"
+	"nodeid" "184"
+	"origin" "820.439 191.877 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "256125"
+	"classname" "info_node"
+	"nodeid" "185"
+	"origin" "858.796 191.766 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5268]"
+	}
+}
+entity
+{
+	"id" "256127"
+	"classname" "info_node"
+	"nodeid" "186"
+	"origin" "876.081 114.677 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "256129"
+	"classname" "info_node"
+	"nodeid" "187"
+	"origin" "956.168 103.28 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4268]"
+	}
+}
+entity
+{
+	"id" "256131"
+	"classname" "info_node"
+	"nodeid" "188"
+	"origin" "1066.52 80.9084 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3768]"
+	}
+}
+entity
+{
+	"id" "256133"
+	"classname" "info_node"
+	"nodeid" "189"
+	"origin" "1110.67 14.3622 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "256135"
+	"classname" "info_node"
+	"nodeid" "190"
+	"origin" "1046.82 188.781 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2768]"
+	}
+}
+entity
+{
+	"id" "256137"
+	"classname" "info_node"
+	"nodeid" "191"
+	"origin" "973.807 234.191 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "256139"
+	"classname" "info_node"
+	"nodeid" "192"
+	"origin" "870.494 255.637 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "256141"
+	"classname" "info_node"
+	"nodeid" "193"
+	"origin" "818.618 -249.094 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1268]"
+	}
+}
+entity
+{
+	"id" "256143"
+	"classname" "info_node"
+	"nodeid" "194"
+	"origin" "905.578 -247.96 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -768]"
+	}
+}
+entity
+{
+	"id" "256145"
+	"classname" "info_node"
+	"nodeid" "195"
+	"origin" "990.48 -247.954 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 0]"
+	}
+}
+entity
+{
+	"id" "256147"
+	"classname" "info_node"
+	"nodeid" "196"
+	"origin" "1073.79 -252.525 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 500]"
+	}
+}
+entity
+{
+	"id" "256149"
+	"classname" "info_node"
+	"nodeid" "197"
+	"origin" "1073.96 -177.29 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "256151"
+	"classname" "info_node"
+	"nodeid" "198"
+	"origin" "1078.67 -71.8924 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "256153"
+	"classname" "info_node"
+	"nodeid" "199"
+	"origin" "911.127 -98.6241 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "256155"
+	"classname" "info_node"
+	"nodeid" "200"
+	"origin" "907.325 -198.871 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2500]"
+	}
+}
+entity
+{
+	"id" "256157"
+	"classname" "info_node"
+	"nodeid" "201"
+	"origin" "988.337 -178.791 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3000]"
+	}
+}
+entity
+{
+	"id" "256159"
+	"classname" "info_node"
+	"nodeid" "202"
+	"origin" "997.074 -117.752 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3500]"
+	}
+}
+entity
+{
+	"id" "256161"
+	"classname" "info_node"
+	"nodeid" "203"
+	"origin" "-694.545 -578.795 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4000]"
+	}
+}
+entity
+{
+	"id" "256163"
+	"classname" "info_node"
+	"nodeid" "204"
+	"origin" "-772.322 -618.134 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4500]"
+	}
+}
+entity
+{
+	"id" "256165"
+	"classname" "info_node"
+	"nodeid" "205"
+	"origin" "-861.238 -615.368 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5000]"
+	}
+}
+entity
+{
+	"id" "256167"
+	"classname" "info_node"
+	"nodeid" "206"
+	"origin" "-858.551 -518.42 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5500]"
+	}
+}
+entity
+{
+	"id" "256169"
+	"classname" "info_node"
+	"nodeid" "207"
+	"origin" "-804.824 -425.877 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6000]"
+	}
+}
+entity
+{
+	"id" "256171"
+	"classname" "info_node"
+	"nodeid" "208"
+	"origin" "-800.561 -503.248 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6500]"
+	}
+}
+entity
+{
+	"id" "256173"
+	"classname" "info_node"
+	"nodeid" "209"
+	"origin" "-937.593 -486.976 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 7000]"
+	}
+}
+entity
+{
+	"id" "256175"
+	"classname" "info_node"
+	"nodeid" "210"
+	"origin" "-939.666 -560.953 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 7500]"
+	}
+}
+entity
+{
+	"id" "256177"
+	"classname" "info_node"
+	"nodeid" "211"
+	"origin" "-1035.31 -650.664 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 8000]"
+	}
+}
+entity
+{
+	"id" "256179"
+	"classname" "info_node"
+	"nodeid" "212"
+	"origin" "-1032.74 -548.178 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 8500]"
+	}
+}
+entity
+{
+	"id" "256181"
+	"classname" "info_node"
+	"nodeid" "213"
+	"origin" "-1119.87 -415.714 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 9000]"
+	}
+}
+entity
+{
+	"id" "256183"
+	"classname" "info_node"
+	"nodeid" "214"
+	"origin" "-666.561 -521.267 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 9500]"
+	}
+}
+entity
+{
+	"id" "256185"
+	"classname" "info_node"
+	"nodeid" "215"
+	"origin" "-660.749 -430.235 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "256187"
+	"classname" "info_node"
+	"nodeid" "216"
+	"origin" "-924.864 -43.8908 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10500]"
+	}
+}
+entity
+{
+	"id" "256189"
+	"classname" "info_node"
+	"nodeid" "217"
+	"origin" "-945.952 -321.136 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11000]"
+	}
+}
+entity
+{
+	"id" "256191"
+	"classname" "info_node"
+	"nodeid" "218"
+	"origin" "-1011.18 -296.978 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "256193"
+	"classname" "info_node"
+	"nodeid" "219"
+	"origin" "-1083.34 -256.372 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 12000]"
+	}
+}
+entity
+{
+	"id" "256195"
+	"classname" "info_node"
+	"nodeid" "220"
+	"origin" "-1079.3 -168.727 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 12500]"
+	}
+}
+entity
+{
+	"id" "256197"
+	"classname" "info_node"
+	"nodeid" "221"
+	"origin" "-1088.03 -87.3436 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "256199"
+	"classname" "info_node"
+	"nodeid" "222"
+	"origin" "-1013.48 -75.9745 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13500]"
+	}
+}
+entity
+{
+	"id" "256201"
+	"classname" "info_node"
+	"nodeid" "223"
+	"origin" "-815.299 -53.1138 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 14000]"
+	}
+}
+entity
+{
+	"id" "256203"
+	"classname" "info_node"
+	"nodeid" "224"
+	"origin" "-737.345 -70.7422 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 14500]"
+	}
+}
+entity
+{
+	"id" "256205"
+	"classname" "info_node"
+	"nodeid" "225"
+	"origin" "-738.035 -153.646 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15000]"
+	}
+}
+entity
+{
+	"id" "256207"
+	"classname" "info_node"
+	"nodeid" "226"
+	"origin" "-814.149 -246.177 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "256209"
+	"classname" "info_node"
+	"nodeid" "227"
+	"origin" "-808.97 -135.9 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 16000]"
+	}
+}
+entity
+{
+	"id" "256211"
+	"classname" "info_node"
+	"nodeid" "228"
+	"origin" "-973.823 443.535 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -16268]"
+	}
+}
+entity
+{
+	"id" "256213"
+	"classname" "info_node"
+	"nodeid" "229"
+	"origin" "-972.459 518.898 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -15768]"
+	}
+}
+entity
+{
+	"id" "256215"
+	"classname" "info_node"
+	"nodeid" "230"
+	"origin" "-975.862 591.17 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -15268]"
+	}
+}
+entity
+{
+	"id" "256217"
+	"classname" "info_node"
+	"nodeid" "231"
+	"origin" "-915.287 545.078 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -14768]"
+	}
+}
+entity
+{
+	"id" "256219"
+	"classname" "info_node"
+	"nodeid" "232"
+	"origin" "-513.586 511.819 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -14268]"
+	}
+}
+entity
+{
+	"id" "256221"
+	"classname" "info_node"
+	"nodeid" "233"
+	"origin" "-616.381 515.541 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -13768]"
+	}
+}
+entity
+{
+	"id" "256223"
+	"classname" "info_node"
+	"nodeid" "234"
+	"origin" "-564.874 643.82 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -13268]"
+	}
+}
+entity
+{
+	"id" "256225"
+	"classname" "info_node"
+	"nodeid" "235"
+	"origin" "-598.45 749.687 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12768]"
+	}
+}
+entity
+{
+	"id" "256227"
+	"classname" "info_node"
+	"nodeid" "236"
+	"origin" "-665.53 833.74 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12268]"
+	}
+}
+entity
+{
+	"id" "256229"
+	"classname" "info_node"
+	"nodeid" "237"
+	"origin" "-616.679 928.878 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -11768]"
+	}
+}
+entity
+{
+	"id" "256231"
+	"classname" "info_node"
+	"nodeid" "238"
+	"origin" "-470.232 636.538 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -11268]"
+	}
+}
+entity
+{
+	"id" "256233"
+	"classname" "info_node"
+	"nodeid" "239"
+	"origin" "-232.78 510.831 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10768]"
+	}
+}
+entity
+{
+	"id" "256235"
+	"classname" "info_node"
+	"nodeid" "240"
+	"origin" "-296.859 509.691 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10268]"
+	}
+}
+entity
+{
+	"id" "256237"
+	"classname" "info_node"
+	"nodeid" "241"
+	"origin" "-310.363 616.892 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9768]"
+	}
+}
+entity
+{
+	"id" "256239"
+	"classname" "info_node"
+	"nodeid" "242"
+	"origin" "-246.778 675.734 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "256241"
+	"classname" "info_node"
+	"nodeid" "243"
+	"origin" "-243.144 810.767 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -8768]"
+	}
+}
+entity
+{
+	"id" "256243"
+	"classname" "info_node"
+	"nodeid" "244"
+	"origin" "-101.602 596.31 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -8268]"
+	}
+}
+entity
+{
+	"id" "256245"
+	"classname" "info_node"
+	"nodeid" "245"
+	"origin" "-93.7967 494.542 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -7768]"
+	}
+}
+entity
+{
+	"id" "256247"
+	"classname" "info_node"
+	"nodeid" "246"
+	"origin" "-183.952 430.658 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -7268]"
+	}
+}
+entity
+{
+	"id" "256249"
+	"classname" "info_node"
+	"nodeid" "247"
+	"origin" "-170.443 581.494 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -6768]"
+	}
+}
+entity
+{
+	"id" "256251"
+	"classname" "info_node"
+	"nodeid" "248"
+	"origin" "-412.355 187.467 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -6268]"
+	}
+}
+entity
+{
+	"id" "256253"
+	"classname" "info_node"
+	"nodeid" "249"
+	"origin" "-324.545 199.117 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -5768]"
+	}
+}
+entity
+{
+	"id" "256255"
+	"classname" "info_node"
+	"nodeid" "250"
+	"origin" "198.249 892.13 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -5268]"
+	}
+}
+entity
+{
+	"id" "256257"
+	"classname" "info_node"
+	"nodeid" "251"
+	"origin" "196.707 788.339 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "256259"
+	"classname" "info_node"
+	"nodeid" "252"
+	"origin" "202.999 705.899 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4268]"
+	}
+}
+entity
+{
+	"id" "256261"
+	"classname" "info_node"
+	"nodeid" "253"
+	"origin" "263.953 513.224 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -3768]"
+	}
+}
+entity
+{
+	"id" "256263"
+	"classname" "info_node"
+	"nodeid" "254"
+	"origin" "179.231 520.202 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -3268]"
+	}
+}
+entity
+{
+	"id" "256265"
+	"classname" "info_node"
+	"nodeid" "255"
+	"origin" "296.04 631.666 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -2768]"
+	}
+}
+entity
+{
+	"id" "256267"
+	"classname" "info_node"
+	"nodeid" "256"
+	"origin" "534.926 512.49 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -2268]"
+	}
+}
+entity
+{
+	"id" "256269"
+	"classname" "info_node"
+	"nodeid" "257"
+	"origin" "447.48 516.874 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -1768]"
+	}
+}
+entity
+{
+	"id" "256271"
+	"classname" "info_node"
+	"nodeid" "258"
+	"origin" "490.339 634.254 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -1268]"
+	}
+}
+entity
+{
+	"id" "256273"
+	"classname" "info_node"
+	"nodeid" "259"
+	"origin" "509.059 715.706 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -768]"
+	}
+}
+entity
+{
+	"id" "256275"
+	"classname" "info_node"
+	"nodeid" "260"
+	"origin" "455.447 761.647 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 0]"
+	}
+}
+entity
+{
+	"id" "256277"
+	"classname" "info_node"
+	"nodeid" "261"
+	"origin" "448.814 876.137 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "256279"
+	"classname" "info_node"
+	"nodeid" "262"
+	"origin" "580.057 437.086 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 1000]"
+	}
+}
+entity
+{
+	"id" "256281"
+	"classname" "info_node"
+	"nodeid" "263"
+	"origin" "666.372 495.016 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 1500]"
+	}
+}
+entity
+{
+	"id" "256283"
+	"classname" "info_node"
+	"nodeid" "264"
+	"origin" "671.779 604.495 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 2000]"
+	}
+}
+entity
+{
+	"id" "256285"
+	"classname" "info_node"
+	"nodeid" "265"
+	"origin" "599.514 587.455 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 2500]"
+	}
+}
+entity
+{
+	"id" "256287"
+	"classname" "info_node"
+	"nodeid" "266"
+	"origin" "601.243 515.689 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 3000]"
+	}
+}
+entity
+{
+	"id" "256289"
+	"classname" "info_node"
+	"nodeid" "267"
+	"origin" "1035.46 472.353 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 3500]"
+	}
+}
+entity
+{
+	"id" "256291"
+	"classname" "info_node"
+	"nodeid" "268"
+	"origin" "938.087 509.962 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 4000]"
+	}
+}
+entity
+{
+	"id" "256293"
+	"classname" "info_node"
+	"nodeid" "269"
+	"origin" "1024.14 579.382 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 4500]"
+	}
+}
+entity
+{
+	"id" "256295"
+	"classname" "info_node"
+	"nodeid" "270"
+	"origin" "978.169 653.731 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 5000]"
+	}
+}
+entity
+{
+	"id" "256297"
+	"classname" "info_node"
+	"nodeid" "271"
+	"origin" "959.744 770.674 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 5500]"
+	}
+}
+entity
+{
+	"id" "256299"
+	"classname" "info_node"
+	"nodeid" "272"
+	"origin" "916.548 909.745 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 6000]"
+	}
+}
+entity
+{
+	"id" "256301"
+	"classname" "info_node"
+	"nodeid" "273"
+	"origin" "1004.31 919.754 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 6500]"
+	}
+}
+entity
+{
+	"id" "256303"
+	"classname" "info_node"
+	"nodeid" "274"
+	"origin" "1665.37 865.543 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 7000]"
+	}
+}
+entity
+{
+	"id" "256305"
+	"classname" "info_node"
+	"nodeid" "275"
+	"origin" "1595.77 672.62 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 7500]"
+	}
+}
+entity
+{
+	"id" "256307"
+	"classname" "info_node"
+	"nodeid" "276"
+	"origin" "1717.22 674.688 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 8000]"
+	}
+}
+entity
+{
+	"id" "256309"
+	"classname" "info_node"
+	"nodeid" "277"
+	"origin" "1656.06 719.921 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 8500]"
+	}
+}
+entity
+{
+	"id" "256311"
+	"classname" "info_node"
+	"nodeid" "278"
+	"origin" "1368.75 601.985 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "256313"
+	"classname" "info_node"
+	"nodeid" "279"
+	"origin" "1343.21 701.168 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9500]"
+	}
+}
+entity
+{
+	"id" "256315"
+	"classname" "info_node"
+	"nodeid" "280"
+	"origin" "1458.44 848.814 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10000]"
+	}
+}
+entity
+{
+	"id" "256317"
+	"classname" "info_node"
+	"nodeid" "281"
+	"origin" "1544.7 882.659 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "256319"
+	"classname" "info_node"
+	"nodeid" "282"
+	"origin" "1475.7 706.95 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11000]"
+	}
+}
+entity
+{
+	"id" "256321"
+	"classname" "info_node"
+	"nodeid" "283"
+	"origin" "1726.97 397.099 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11500]"
+	}
+}
+entity
+{
+	"id" "256323"
+	"classname" "info_node"
+	"nodeid" "284"
+	"origin" "1582.89 395.109 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "256325"
+	"classname" "info_node"
+	"nodeid" "285"
+	"origin" "1643.74 281.483 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12500]"
+	}
+}
+entity
+{
+	"id" "256327"
+	"classname" "info_node"
+	"nodeid" "286"
+	"origin" "1736.74 188.823 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 13000]"
+	}
+}
+entity
+{
+	"id" "256329"
+	"classname" "info_node"
+	"nodeid" "287"
+	"origin" "1553.31 172.71 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 13500]"
+	}
+}
+entity
+{
+	"id" "256331"
+	"classname" "info_node"
+	"nodeid" "288"
+	"origin" "1653.83 188.803 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "256333"
+	"classname" "info_node"
+	"nodeid" "289"
+	"origin" "1357.72 183.816 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14500]"
+	}
+}
+entity
+{
+	"id" "256335"
+	"classname" "info_node"
+	"nodeid" "290"
+	"origin" "1468.18 177.812 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 15000]"
+	}
+}
+entity
+{
+	"id" "256337"
+	"classname" "info_node"
+	"nodeid" "291"
+	"origin" "1345.76 380.282 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 15500]"
+	}
+}
+entity
+{
+	"id" "256339"
+	"classname" "info_node"
+	"nodeid" "292"
+	"origin" "1324.6 483.083 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 16000]"
+	}
+}
+entity
+{
+	"id" "256341"
+	"classname" "info_node"
+	"nodeid" "293"
+	"origin" "1362.57 429.301 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "256343"
+	"classname" "info_node"
+	"nodeid" "294"
+	"origin" "1358.76 248.988 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -15768]"
+	}
+}
+entity
+{
+	"id" "256345"
+	"classname" "info_node"
+	"nodeid" "295"
+	"origin" "1364.72 314.6 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -15268]"
+	}
+}
+entity
+{
+	"id" "256347"
+	"classname" "info_node"
+	"nodeid" "296"
+	"origin" "1740.93 -230.958 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -14768]"
+	}
+}
+entity
+{
+	"id" "256349"
+	"classname" "info_node"
+	"nodeid" "297"
+	"origin" "1749.43 -327.448 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -14268]"
+	}
+}
+entity
+{
+	"id" "256351"
+	"classname" "info_node"
+	"nodeid" "298"
+	"origin" "1651.56 -268.997 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -13768]"
+	}
+}
+entity
+{
+	"id" "256355"
+	"classname" "info_node"
+	"nodeid" "300"
+	"origin" "1419.39 -273.082 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -12768]"
+	}
+}
+entity
+{
+	"id" "256357"
+	"classname" "info_node"
+	"nodeid" "301"
+	"origin" "1345.75 -289.175 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -12268]"
+	}
+}
+entity
+{
+	"id" "256359"
+	"classname" "info_node"
+	"nodeid" "302"
+	"origin" "1441.17 -194.666 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -11768]"
+	}
+}
+entity
+{
+	"id" "256361"
+	"classname" "info_node"
+	"nodeid" "303"
+	"origin" "1523.25 -268.361 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -11268]"
+	}
+}
+entity
+{
+	"id" "256363"
+	"classname" "info_node"
+	"nodeid" "304"
+	"origin" "1441.03 -144.215 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -10768]"
+	}
+}
+entity
+{
+	"id" "256365"
+	"classname" "info_node"
+	"nodeid" "305"
+	"origin" "1548.35 -144.967 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -10268]"
+	}
+}
+entity
+{
+	"id" "256367"
+	"classname" "info_node"
+	"nodeid" "306"
+	"origin" "1357.95 -122.135 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -9768]"
+	}
+}
+entity
+{
+	"id" "256369"
+	"classname" "info_node"
+	"nodeid" "307"
+	"origin" "1388.28 -53.2218 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -9268]"
+	}
+}
+entity
+{
+	"id" "256371"
+	"classname" "info_node"
+	"nodeid" "308"
+	"origin" "1550.01 60.8812 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -8768]"
+	}
+}
+entity
+{
+	"id" "256373"
+	"classname" "info_node"
+	"nodeid" "309"
+	"origin" "1475.15 62.9889 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -8268]"
+	}
+}
+entity
+{
+	"id" "256375"
+	"classname" "info_node"
+	"nodeid" "310"
+	"origin" "1395.05 63.8263 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -7768]"
+	}
+}
+entity
+{
+	"id" "256377"
+	"classname" "info_node"
+	"nodeid" "311"
+	"origin" "1761.05 31.1447 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -7268]"
+	}
+}
+entity
+{
+	"id" "256379"
+	"classname" "info_node"
+	"nodeid" "312"
+	"origin" "1624.44 42.758 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -6768]"
+	}
+}
+entity
+{
+	"id" "256381"
+	"classname" "info_node"
+	"nodeid" "313"
+	"origin" "1626.21 -23.6204 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -6268]"
+	}
+}
+entity
+{
+	"id" "256383"
+	"classname" "info_node"
+	"nodeid" "314"
+	"origin" "1627.1 -110.893 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5768]"
+	}
+}
+entity
+{
+	"id" "256385"
+	"classname" "info_node"
+	"nodeid" "315"
+	"origin" "1737.3 -124.402 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5268]"
+	}
+}
+entity
+{
+	"id" "256387"
+	"classname" "info_node"
+	"nodeid" "316"
+	"origin" "1337.33 -547.55 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -4768]"
+	}
+}
+entity
+{
+	"id" "256389"
+	"classname" "info_node"
+	"nodeid" "317"
+	"origin" "1333.2 -668.395 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -4268]"
+	}
+}
+entity
+{
+	"id" "256391"
+	"classname" "info_node"
+	"nodeid" "318"
+	"origin" "1262.43 -669.273 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -3768]"
+	}
+}
+entity
+{
+	"id" "256393"
+	"classname" "info_node"
+	"nodeid" "319"
+	"origin" "1199.51 -674.396 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -3268]"
+	}
+}
+entity
+{
+	"id" "256395"
+	"classname" "info_node"
+	"nodeid" "320"
+	"origin" "1185.19 -587.327 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -2768]"
+	}
+}
+entity
+{
+	"id" "256397"
+	"classname" "info_node"
+	"nodeid" "321"
+	"origin" "1264.68 -590.404 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -2268]"
+	}
+}
+entity
+{
+	"id" "256399"
+	"classname" "info_node"
+	"nodeid" "322"
+	"origin" "1325.69 -755.661 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -1768]"
+	}
+}
+entity
+{
+	"id" "256401"
+	"classname" "info_node"
+	"nodeid" "323"
+	"origin" "1303.74 -812.298 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -1268]"
+	}
+}
+entity
+{
+	"id" "256403"
+	"classname" "info_node"
+	"nodeid" "324"
+	"origin" "1308.42 -954.141 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -768]"
+	}
+}
+entity
+{
+	"id" "256405"
+	"classname" "info_node"
+	"nodeid" "325"
+	"origin" "1161.72 -956.599 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 0]"
+	}
+}
+entity
+{
+	"id" "256407"
+	"classname" "info_node"
+	"nodeid" "326"
+	"origin" "1155.72 -841.592 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 500]"
+	}
+}
+entity
+{
+	"id" "256409"
+	"classname" "info_node"
+	"nodeid" "327"
+	"origin" "1161.07 -749.345 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 1000]"
+	}
+}
+entity
+{
+	"id" "256411"
+	"classname" "info_node"
+	"nodeid" "328"
+	"origin" "409.861 -546.171 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 1500]"
+	}
+}
+entity
+{
+	"id" "256413"
+	"classname" "info_node"
+	"nodeid" "329"
+	"origin" "572.513 -546.873 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 2000]"
+	}
+}
+entity
+{
+	"id" "256415"
+	"classname" "info_node"
+	"nodeid" "330"
+	"origin" "651.083 -555.218 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 2500]"
+	}
+}
+entity
+{
+	"id" "256417"
+	"classname" "info_node"
+	"nodeid" "331"
+	"origin" "648.769 -479.123 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 3000]"
+	}
+}
+entity
+{
+	"id" "256419"
+	"classname" "info_node"
+	"nodeid" "332"
+	"origin" "482.295 -546.417 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 3500]"
+	}
+}
+entity
+{
+	"id" "256421"
+	"classname" "info_node"
+	"nodeid" "333"
+	"origin" "478.064 -632.415 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 4000]"
+	}
+}
+entity
+{
+	"id" "256423"
+	"classname" "info_node"
+	"nodeid" "334"
+	"origin" "534.855 -680.37 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 4500]"
+	}
+}
+entity
+{
+	"id" "256425"
+	"classname" "info_node"
+	"nodeid" "335"
+	"origin" "597.751 -765.851 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 5000]"
+	}
+}
+entity
+{
+	"id" "256427"
+	"classname" "info_node"
+	"nodeid" "336"
+	"origin" "422.511 -683.33 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 5500]"
+	}
+}
+entity
+{
+	"id" "256429"
+	"classname" "info_node"
+	"nodeid" "337"
+	"origin" "379.781 -789.588 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 6000]"
+	}
+}
+entity
+{
+	"id" "256431"
+	"classname" "info_node"
+	"nodeid" "338"
+	"origin" "372.003 -907.604 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 6500]"
+	}
+}
+entity
+{
+	"id" "256433"
+	"classname" "info_node"
+	"nodeid" "339"
+	"origin" "602.385 -855.435 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 7000]"
+	}
+}
+entity
+{
+	"id" "256435"
+	"classname" "info_node"
+	"nodeid" "340"
+	"origin" "612.463 -958.728 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 7500]"
+	}
+}
+entity
+{
+	"id" "256437"
+	"classname" "info_node"
+	"nodeid" "341"
+	"origin" "497.245 -942.559 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 8000]"
+	}
+}
+entity
+{
+	"id" "256439"
+	"classname" "info_node"
+	"nodeid" "342"
+	"origin" "1200.38 -159.431 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 8500]"
+	}
+}
+entity
+{
+	"id" "256462"
 	"classname" "vi_item_camera"
-	"origin" "1694.34 -895.836 1"
+	"angles" "0 0 0"
+	"origin" "1712.18 -948 23"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[1500 10500]"
 	}
 }
 cameras
@@ -88154,8 +90950,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[441.033 263.151 84.4652]"
-		"look" "[440.358 262.398 84.5573]"
+		"position" "[-332.234 147.339 70.1231]"
+		"look" "[-331.853 148.284 70.1302]"
 	}
 }
 cordon
