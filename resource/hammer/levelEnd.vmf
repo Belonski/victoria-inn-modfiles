@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "367"
+	"mapversion" "392"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "367"
+	"mapversion" "392"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -27888,7 +27888,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "6"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -27936,9 +27936,9 @@ entity
 	"_zero_percent_distance" "0"
 	"angles" "-90 0 0"
 	"pitch" "-90"
-	"spawnflags" "0"
-	"style" "9"
-	"targetname" "poolLight"
+	"spawnflags" "1"
+	"style" "0"
+	"targetname" "poolLight_1"
 	"origin" "288 -1251 182"
 	editor
 	{
@@ -31436,9 +31436,9 @@ entity
 	"_zero_percent_distance" "0"
 	"angles" "-90 0 0"
 	"pitch" "-90"
-	"spawnflags" "0"
-	"style" "9"
-	"targetname" "poolLight"
+	"spawnflags" "1"
+	"style" "0"
+	"targetname" "poolLight_2"
 	"origin" "288 -1277 182"
 	editor
 	{
@@ -31475,6 +31475,10 @@ entity
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	"targetname" "poollight_on"
+	connections
+	{
+		"OnTrigger" "poolLight_timer,Enable,,0,1"
+	}
 	solid
 	{
 		"id" "33797"
@@ -32093,22 +32097,49 @@ entity
 {
 	"id" "41551"
 	"classname" "logic_timer"
-	"RefireTime" "1.5"
+	"RefireTime" "1.6"
 	"spawnflags" "0"
-	"StartDisabled" "0"
+	"StartDisabled" "1"
+	"targetname" "poolLight_timer"
 	"UseRandomTime" "0"
 	connections
 	{
-		"OnTimer" "poolLight,TurnOn,,0,-1"
-		"OnTimer" "poolLight,TurnOff,,0.5,-1"
+		"OnTimer" "poolLight,Skin,1,0.8,-1"
+		"OnTimer" "poolLight,Skin,0,0,-1"
+		"OnTimer" "poolLight_1,TurnOn,,0,-1"
+		"OnTimer" "poolLight_1,TurnOff,,0.8,-1"
+		"OnTimer" "poolLight_2,TurnOn,,0,-1"
+		"OnTimer" "poolLight_2,TurnOff,,0.8,-1"
 	}
-	"origin" "288 -1251 174"
+	"origin" "289 -1229 173"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "42754"
+	"classname" "light_environment"
+	"_ambient" "255 255 255 200"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "0 0 0"
+	"pitch" "0"
+	"SunSpreadAngle" "0"
+	"origin" "1844 -858 445"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
