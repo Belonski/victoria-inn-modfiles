@@ -29,5 +29,5 @@
 	"pitch"		"PITCH_NORM"
 	"soundlevel"	"SNDLVL_80dB"
 
-	"wave"		"firstBoss/step.wav"
+	"wave"		"firstBoss/step3.wav"
 }
