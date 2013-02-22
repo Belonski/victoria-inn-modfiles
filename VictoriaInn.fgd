@@ -94,3 +94,5 @@
 ]
 
 @PointClass base(Weapon) studio("models/Victoria_weapons/w_knife.mdl") = weapon_knife : "Knife" []
+
+@PointClass base(Weapon) studio("models/weapons/w_physics.mdl") = weapon_recreateWeapon : "Recreate Weapon" []
