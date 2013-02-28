@@ -33,6 +33,11 @@
 	EntityId(integer) : "Entity Id" : 0 : "The Id of the element to be able to tell one entity from the other."
 ]
 
+@PointClass base(Targetname) studio("models/Victoria_items/battery/battery.mdl")= vi_item_battery :  "Battery model entity."
+[
+	output OnPlayerTouch(void) : "Battery found."
+]
+
 @PointClass base(Targetname) studio("models/items/boxsrounds.mdl")= vi_pistol_ammo : "Box of infinite Pistolammo" 
 [
 ]
