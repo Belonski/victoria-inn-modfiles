@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\victoria_monster/vortigaunt_base"
+	"$model" "1"
+}
