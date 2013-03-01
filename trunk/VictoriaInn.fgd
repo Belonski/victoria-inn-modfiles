@@ -61,7 +61,7 @@
 	input Launch(float) : "Launch the flare forward with the specified speed."
 ]
 
-@NPCClass base(BaseNPC) studio("models/vortigaunt.mdl") = npc_firstBoss: "FirstBoss"
+@NPCClass base(BaseNPC) studio("models/victoria_monster/boss1.mdl") = npc_firstBoss: "FirstBoss"
 [
 ]
 @NPCClass base(BaseNPC) studio("models/Zombie/Classic.mdl") = npc_secondmonster: "SecondMonster"

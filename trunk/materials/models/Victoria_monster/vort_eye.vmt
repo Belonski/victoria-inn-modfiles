@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\victoria_monster/vort_eye"
+	"$model" "1"
+	"$bumpmap" "Models/victoria_monster/brain_normal"
+	"$phong" "1"
+	"$phongboost" "10"
+
+}
