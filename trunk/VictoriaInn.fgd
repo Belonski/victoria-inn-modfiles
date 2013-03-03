@@ -15,6 +15,11 @@
 	EntityId(integer) : "Entity Id" : 0 :	"The Id of the element to be able to tell one entity from the other."
 ]
 
+@PointClass base(Targetname) = checkpoint_trigger : "Entity for the checkpoint trigger."
+[
+	input Tick(void) : "Fires when we reach a checkpoint"
+]
+
 @PointClass base(Targetname) studio("models/Victoria_items/tape/tape.mdl")= vi_item_tape : "Tape model entity."
 [
 	output OnPlayerTouch(void) : "Tape found."
