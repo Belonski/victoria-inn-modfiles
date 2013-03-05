@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+   "$basetexture" "hud/secondBossHealthBarFill"
+   "$translucent"   "1"
+}
