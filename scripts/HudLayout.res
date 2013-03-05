@@ -1,5 +1,30 @@
 "Resource/HudLayout.res"
 {
+
+	HudSecondBossHealthBarFill
+	{
+		"fieldName"             "HudSecondBossHealthBarFill"
+        "xpos" "0"
+        "ypos" "0"
+        "wide" "3640" 
+        "tall" "3640"
+        "visible" "1"
+        "enabled" "1"
+        "PaintBackgroundType"   "2"
+	}
+	HudSecondBossHealthBarBorder
+	{
+		"fieldName"             "HudSecondBossHealthBarBorder"
+        "xpos" "0"
+        "ypos" "0"
+        "wide" "3640" 
+        "tall" "3640"
+        "visible" "1"
+        "enabled" "1"
+        "PaintBackgroundType"   "2"
+	}
+
+
 	HudHealthBarFill
 	{
 		"fieldName"             "HudHealthBarFill"
