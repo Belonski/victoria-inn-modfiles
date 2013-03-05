@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\victoria_monster/combine_elite_transparent"
+	"$model" "1"
+	"$translucent" "1"
+}
