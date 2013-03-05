@@ -43,6 +43,10 @@
 	output OnPlayerTouch(void) : "Battery found."
 ]
 
+@PointClass base(Targetname) studio("models/Victoria_items/time_door_lock/time_door_lock.mdl")= vi_item_door_time_lock :  "doorTimeLock model entity."
+[
+]
+
 @PointClass base(Targetname) studio("models/items/boxsrounds.mdl")= vi_pistol_ammo : "Box of infinite Pistolammo" 
 [
 ]
