@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "568"
+	"mapversion" "570"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "568"
+	"mapversion" "570"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -59850,6 +59850,444 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "78879"
+	"classname" "npc_secondBoss"
+	"angles" "0 0 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"origin" "442.703 -1972.99 65"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "78883"
+	"classname" "info_node"
+	"nodeid" "6"
+	"origin" "379.502 -1871.42 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "78885"
+	"classname" "info_node"
+	"nodeid" "7"
+	"origin" "482.278 -1923.13 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "78887"
+	"classname" "info_node"
+	"nodeid" "8"
+	"origin" "530.145 -1977.27 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "78889"
+	"classname" "info_node"
+	"nodeid" "9"
+	"origin" "370.24 -1930.34 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "78891"
+	"classname" "info_node"
+	"nodeid" "10"
+	"origin" "544.829 -1942.36 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "78893"
+	"classname" "info_node"
+	"nodeid" "11"
+	"origin" "362.291 -1734.33 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "78895"
+	"classname" "info_node"
+	"nodeid" "12"
+	"origin" "378.131 -1704.31 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "78897"
+	"classname" "info_node"
+	"nodeid" "13"
+	"origin" "9.00001 -1583.65 77.4999"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "78899"
+	"classname" "info_node"
+	"nodeid" "14"
+	"origin" "243.436 -1675.48 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "78901"
+	"classname" "info_node"
+	"nodeid" "15"
+	"origin" "434.104 -1657.42 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "78903"
+	"classname" "info_node"
+	"nodeid" "16"
+	"origin" "467.078 -1688.31 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "78905"
+	"classname" "info_node"
+	"nodeid" "17"
+	"origin" "458.688 -1735.07 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "78907"
+	"classname" "info_node"
+	"nodeid" "18"
+	"origin" "416.463 -1758.91 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "78909"
+	"classname" "info_node"
+	"nodeid" "19"
+	"origin" "285.637 -1754.88 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "78911"
+	"classname" "info_node"
+	"nodeid" "20"
+	"origin" "320.318 -1795.63 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "78913"
+	"classname" "info_node"
+	"nodeid" "21"
+	"origin" "9.00001 -1705.82 74.3595"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "78915"
+	"classname" "info_node"
+	"nodeid" "22"
+	"origin" "9.00001 -1694.93 68.7209"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "78917"
+	"classname" "info_node"
+	"nodeid" "23"
+	"origin" "147.207 -1705.59 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "78919"
+	"classname" "info_node"
+	"nodeid" "24"
+	"origin" "371.638 -1623.86 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "78921"
+	"classname" "info_node"
+	"nodeid" "25"
+	"origin" "722.535 -1663.56 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "78923"
+	"classname" "info_node"
+	"nodeid" "26"
+	"origin" "914.414 -1487.92 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "78925"
+	"classname" "info_node"
+	"nodeid" "27"
+	"origin" "991.129 -1435.4 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "78927"
+	"classname" "info_node"
+	"nodeid" "28"
+	"origin" "814.204 -1540.09 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "78929"
+	"classname" "info_node"
+	"nodeid" "29"
+	"origin" "814.776 -1498.76 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "78931"
+	"classname" "info_node"
+	"nodeid" "30"
+	"origin" "1094.6 -1413.12 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "78933"
+	"classname" "info_node"
+	"nodeid" "31"
+	"origin" "637.194 -1648.62 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "78935"
+	"classname" "info_node"
+	"nodeid" "32"
+	"origin" "605.922 -1642.76 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "78937"
+	"classname" "info_node"
+	"nodeid" "33"
+	"origin" "594.996 -1609.64 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "78939"
+	"classname" "info_node"
+	"nodeid" "34"
+	"origin" "687.248 -1775.67 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "78941"
+	"classname" "info_node"
+	"nodeid" "35"
+	"origin" "642.563 -1740.61 65"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
 	}
 }
 cameras
