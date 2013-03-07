@@ -31,3 +31,12 @@
 
 	"wave"		"firstBoss/step3.wav"
 }
+"npc_firstboss.metal"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"		"firstBoss/metal.wav"
+}

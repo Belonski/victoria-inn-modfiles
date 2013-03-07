@@ -181,8 +181,8 @@
 
 "General.StopBurning"
 {
-	"channel"		"CHAN_WEAPON"
-	"volume"		"VOL_NORM"
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
 	"pitch"		"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -191,14 +191,22 @@
 }
 "Ambient"
 {
-	"channel"	"CHAN_WEAPON"
-	"volume"	"0.1"
+	"channel"	"CHAN_AUTO"		
+	"volume"	"0.3"
 	"pitch"		"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_45dB"
 
-	"wave"		 "ingamemusic/testingamemusic2.wav"
+	"rndwave"
+	{
+		"wave"	"ingamemusic/ambient.wav"
+		"wave"	"ingamemusic/ambient2.wav"
+		"wave"	"ingamemusic/ambient3.wav"
+		"wave"	"ingamemusic/ambient4.wav"
+	}
 }
+	
+	
 
 
 

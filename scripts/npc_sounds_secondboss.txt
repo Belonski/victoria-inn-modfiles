@@ -20,3 +20,12 @@
 		"wave"		"secondboss/scream2.wav"
 	}		
 }
+"npc_secondboss.ambient"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"		"secondboss/ambientBoss.wav"
+}
