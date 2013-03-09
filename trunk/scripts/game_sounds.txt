@@ -199,10 +199,11 @@
 
 	"rndwave"
 	{
+
 		"wave"	"ingamemusic/ambient.wav"
 		"wave"	"ingamemusic/ambient2.wav"
 		"wave"	"ingamemusic/ambient3.wav"
-		"wave"	"ingamemusic/ambient4.wav"
+		"wave"	"ingamemusic/ambient4.mp3"
 	}
 }
 	
