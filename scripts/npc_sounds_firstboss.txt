@@ -36,7 +36,7 @@
 	"channel"	"CHAN_AUTO"
 	"volume"	"VOL_NORM"
 	"pitch"		"PITCH_NORM"
-	"soundlevel"	"SNDLVL_80dB"
+	"soundlevel"	"SNDLVL_110dB"
 
 	"wave"		"firstBoss/metal.wav"
 }
