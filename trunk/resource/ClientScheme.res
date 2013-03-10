@@ -125,13 +125,39 @@ Scheme
 				"tall"		"20"
 				"weight"	"500"
 				"antialias" "1"
+				"yres"	"600 767"
 			}
-			"2"
+			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"500"
 				"antialias" "1"
+				"yres"	"600 867"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"19"
+				"weight"	"500"
+				"antialias" "1"
+				"yres"	"482 599"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+				"yres"	"1 481"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"500"
+				"antialias" "1"
+				"yres"	"868 901"
 			}
 		}
 		Default

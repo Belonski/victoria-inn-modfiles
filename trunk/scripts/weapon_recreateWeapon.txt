@@ -43,16 +43,6 @@ WeaponData
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
-		"weapon"
-		{
-				"font"		"WeaponIcons"
-				"character"	"m"
-		}
-		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"m"
-		}
 		"crosshair"
 		{
 				"font"		"Crosshairs"
