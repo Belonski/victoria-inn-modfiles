@@ -80,7 +80,7 @@
 @NPCClass base(BaseNPC) studio("models/Victoria_monster/enemy_1.mdl") = npc_firstmonster: "FirstMonster"
 [
 ]
-@NPCClass base(BaseNPC) studio("models/vortigaunt.mdl") = npc_secondBoss: "SecondBoss"
+@NPCClass base(BaseNPC) studio("models/victoria_monster/boss2_transparent.mdl") = npc_secondBoss: "SecondBoss"
 [
 ]
 
