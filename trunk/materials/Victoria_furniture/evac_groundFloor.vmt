@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	 $model "1"
+	 $basetexture "victoria_furniture/evac2"
+	 $translucent "1"
+}
