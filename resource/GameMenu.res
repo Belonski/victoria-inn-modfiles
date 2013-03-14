@@ -2,17 +2,17 @@
 {
 	"1"
 	{
-		"label" "#GameUI_GameMenu_NewGame"
+		"label" "N__________________"
 		"command" "OpenNewGameDialog"
 	}
 	"2"
 	{
-		"label" "#GameUI_GameMenu_Options"
+		"label" "N__________________"
 		"command" "OpenOptionsDialog"
 	}
 	"3"
 	{
-		"label" "#GameUI_GameMenu_Quit"
+		"label" "N______"
 		"command" "Quit"
 	}
 }
