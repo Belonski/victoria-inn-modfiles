@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "837"
+	"mapversion" "838"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "837"
+	"mapversion" "838"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -167988,13 +167988,138 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "397297"
+	"classname" "trigger_once"
+	"origin" "1538 -944.5 36"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "IntroTrigger"
+	connections
+	{
+		"OnStartTouch" "IntroPlayer,Command,playvideo_exitcommand valve soundfade 0 0,0.05,-1"
+		"OnStartTouch" "SoundFade,Command,soundfade 100 10000,0.07,-1"
+	}
+	solid
+	{
+		"id" "397295"
+		side
+		{
+			"id" "27053"
+			"plane" "(1503 -911 136) (1573 -911 136) (1573 -978 136)"
+			"material" "/CAMERA_NIGHTVISION"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27052"
+			"plane" "(1503 -978 -64) (1573 -978 -64) (1573 -911 -64)"
+			"material" "/CAMERA_NIGHTVISION"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27051"
+			"plane" "(1503 -911 136) (1503 -978 136) (1503 -978 -64)"
+			"material" "/CAMERA_NIGHTVISION"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27050"
+			"plane" "(1573 -911 -64) (1573 -978 -64) (1573 -978 136)"
+			"material" "/CAMERA_NIGHTVISION"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27049"
+			"plane" "(1573 -911 136) (1503 -911 136) (1503 -911 -64)"
+			"material" "/CAMERA_NIGHTVISION"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27048"
+			"plane" "(1573 -978 -64) (1503 -978 -64) (1503 -978 136)"
+			"material" "/CAMERA_NIGHTVISION"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "397337"
+	"classname" "point_clientcommand"
+	"targetname" "SoundFade"
+	"origin" "1663.11 -760.733 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "397352"
+	"classname" "point_clientcommand"
+	"targetname" "IntroPlayer"
+	"origin" "1698.32 -748.837 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[272.682 315.477 57.4023]"
-		"look" "[271.694 315.376 57.2627]"
+		"position" "[1714.44 -771.358 41.2238]"
+		"look" "[1713.67 -771.984 41.089]"
 	}
 }
 cordon
