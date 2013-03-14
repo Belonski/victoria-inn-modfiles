@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/menu_newGame"
+	"$translucent" "1"
+
+}
