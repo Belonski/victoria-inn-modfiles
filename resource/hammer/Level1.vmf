@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "838"
+	"mapversion" "875"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "838"
+	"mapversion" "875"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6948,7 +6948,7 @@ world
 		side
 		{
 			"id" "3795"
-			"plane" "(-31 385 128) (-31 386 128) (158 386 128)"
+			"plane" "(-31 384 128) (-31 386 128) (74 386 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -12] 0.25"
 			"vaxis" "[0 -1 0 4] 0.25"
@@ -6959,7 +6959,7 @@ world
 		side
 		{
 			"id" "3794"
-			"plane" "(-31 386 0) (-31 385 0) (158 385 0)"
+			"plane" "(-31 386 0) (-31 384 0) (74 384 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -12] 0.25"
 			"vaxis" "[0 -1 0 4] 0.25"
@@ -6970,9 +6970,9 @@ world
 		side
 		{
 			"id" "3793"
-			"plane" "(-31 385 0) (-31 386 0) (-31 386 128)"
+			"plane" "(-31 384 0) (-31 386 0) (-31 386 128)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -4] 0.25"
+			"uaxis" "[0 -1 0 -4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6981,8 +6981,8 @@ world
 		side
 		{
 			"id" "3792"
-			"plane" "(158 386 0) (158 385 0) (158 385 128)"
-			"material" "PLASTER/PLASTERWALL039D"
+			"plane" "(74 386 0) (74 384 0) (74 384 128)"
+			"material" "CONCRETE/CONCRETECEILING003A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6992,9 +6992,9 @@ world
 		side
 		{
 			"id" "3791"
-			"plane" "(-31 386 0) (158 386 0) (158 386 128)"
+			"plane" "(-31 386 0) (74 386 0) (74 386 128)"
 			"material" "VICTORIA_TEXTURES/BATHROOM4"
-			"uaxis" "[1 0 0 0] 0.05"
+			"uaxis" "[-1 0 0 0] 0.05"
 			"vaxis" "[0 0 -1 0] 0.05"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7003,7 +7003,7 @@ world
 		side
 		{
 			"id" "3790"
-			"plane" "(158 385 0) (-31 385 0) (-31 385 128)"
+			"plane" "(74 384 0) (-31 384 0) (-31 384 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -12] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -28902,82 +28902,6 @@ world
 		editor
 		{
 			"color" "0 252 161"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "171282"
-		side
-		{
-			"id" "10875"
-			"plane" "(74 376 128) (74 384 128) (180 384 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 40] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10874"
-			"plane" "(74 384 0) (74 376 0) (180 376 0)"
-			"material" "PLASTER/PLASTERWALL043C"
-			"uaxis" "[-1 0 0 296] 0.25"
-			"vaxis" "[0 1 0 -256] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10873"
-			"plane" "(180 384 0) (180 376 0) (180 376 128)"
-			"material" "WOOD/WOODSTAIR002C"
-			"uaxis" "[0 -1 0 224] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10872"
-			"plane" "(74 376 0) (74 384 0) (74 384 128)"
-			"material" "PLASTER/PLASTERWALL043C"
-			"uaxis" "[0 -1 0 480] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10871"
-			"plane" "(180 376 0) (74 376 0) (74 376 128)"
-			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
-			"uaxis" "[-1 0 0 -88] 0.15"
-			"vaxis" "[0 0 -1 0] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10870"
-			"plane" "(74 384 0) (180 384 0) (180 384 128)"
-			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
-			"uaxis" "[-1 0 0 296] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 126 223"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -84532,7 +84456,7 @@ world
 		side
 		{
 			"id" "27023"
-			"plane" "(180 376 128) (180 384 128) (241 384 128)"
+			"plane" "(158 376 128) (158 384 128) (241 384 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 28] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -84543,7 +84467,7 @@ world
 		side
 		{
 			"id" "27022"
-			"plane" "(180 384 0) (180 376 0) (241 376 0)"
+			"plane" "(158 384 0) (158 376 0) (241 376 0)"
 			"material" "PLASTER/PLASTERWALL043C"
 			"uaxis" "[-1 0 0 28] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -84556,7 +84480,7 @@ world
 			"id" "27021"
 			"plane" "(241 384 0) (241 376 0) (241 376 128)"
 			"material" "WOOD/WOODSTAIR002C"
-			"uaxis" "[0 -1 0 224] 0.25"
+			"uaxis" "[0 1 0 224] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -84565,7 +84489,7 @@ world
 		side
 		{
 			"id" "27020"
-			"plane" "(180 376 0) (180 384 0) (180 384 128)"
+			"plane" "(158 376 0) (158 384 0) (158 384 128)"
 			"material" "PLASTER/PLASTERWALL043C"
 			"uaxis" "[0 -1 0 480] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -84576,7 +84500,7 @@ world
 		side
 		{
 			"id" "27019"
-			"plane" "(241 376 0) (180 376 0) (180 376 128)"
+			"plane" "(241 376 0) (158 376 0) (158 376 128)"
 			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
 			"uaxis" "[-1 0 0 -88] 0.15"
 			"vaxis" "[0 0 -1 0] 0.15"
@@ -84587,7 +84511,7 @@ world
 		side
 		{
 			"id" "27018"
-			"plane" "(180 384 0) (241 384 0) (241 384 128)"
+			"plane" "(158 384 0) (241 384 0) (241 384 128)"
 			"material" "VICTORIA_TEXTURES/ROOMTEXTURE4"
 			"uaxis" "[-1 0 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -84750,6 +84674,809 @@ world
 		editor
 		{
 			"color" "0 238 147"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424073"
+		side
+		{
+			"id" "33714"
+			"plane" "(75 386 0) (74 386 0) (74 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33713"
+			"plane" "(74 376 19.2537) (74 376 0) (74 386 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 480] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33712"
+			"plane" "(75 376 0) (74 376 0) (74 376 19.2537)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33711"
+			"plane" "(74 386 19.2537) (74 386 0) (75 386 0)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33710"
+			"plane" "(75.7953 376 14.3156) (74 376 19.2536) (74 386 19.2536)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33709"
+			"plane" "(75.7953 386 14.3157) (75 386 0) (75 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424074"
+		side
+		{
+			"id" "33720"
+			"plane" "(78 386 0) (75 386 0) (75 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33719"
+			"plane" "(75.7952 376 14.3146) (78.4521 376 7) (78 376 0)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33718"
+			"plane" "(75 386 0) (78 386 0) (78.4521 386 7)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33717"
+			"plane" "(75.7954 386 14.3168) (78.4523 386 7) (78.4523 376 7)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33716"
+			"plane" "(75.7953 376 14.3157) (75 376 0) (75 386 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33715"
+			"plane" "(78.4522 386 7) (78 386 0) (78 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424075"
+		side
+		{
+			"id" "33725"
+			"plane" "(81 386 0) (78 386 0) (78 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33724"
+			"plane" "(78.4523 376 7) (81 376 0) (78 376 0)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33723"
+			"plane" "(78 386 0) (81 386 0) (78.4523 386 7)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33722"
+			"plane" "(78.4522 386 7) (81 386 0) (81 376 0)"
+			"material" "CONCRETE/CONCRETECEILING003A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33721"
+			"plane" "(78.4522 376 7) (78 376 0) (78 386 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424076"
+		side
+		{
+			"id" "33731"
+			"plane" "(82.1111 376 128) (74 376 128) (74 386 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33730"
+			"plane" "(74 386 77) (74 386 128) (74 376 128)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 480] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33729"
+			"plane" "(74 376 77) (74 376 128) (82.1111 376 128)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33728"
+			"plane" "(82.1111 386 128) (74 386 128) (74 386 77)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33727"
+			"plane" "(79.3579 376 78.4429) (82.1111 376 128) (82.1111 386 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33726"
+			"plane" "(74 386 77) (74 376 77) (79.3579 376 78.4429)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424077"
+		side
+		{
+			"id" "33737"
+			"plane" "(74 376 77) (74 376 19.2544) (74 386 19.2544)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0 1 0 480] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33736"
+			"plane" "(79.3579 376 78.4429) (75.7953 376 14.3164) (74 376 19.2544)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33735"
+			"plane" "(74 386 77) (74 386 19.2544) (75.7953 386 14.3164)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33734"
+			"plane" "(75.7953 386 14.3158) (74 386 19.2538) (74 376 19.2538)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33733"
+			"plane" "(79.3579 386 78.4429) (75.7953 386 14.3158) (75.7953 376 14.3158)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33732"
+			"plane" "(79.3579 376 78.4429) (74 376 77) (74 386 77)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424078"
+		side
+		{
+			"id" "33743"
+			"plane" "(86.2581 376 128) (82.1108 376 128) (82.1108 386 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33742"
+			"plane" "(79.3576 376 78.4428) (82.1108 376 128) (86.2581 376 128)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33741"
+			"plane" "(86.2581 386 128) (82.1108 386 128) (79.3576 386 78.4428)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33740"
+			"plane" "(79.3579 386 78.4429) (82.1111 386 128) (82.1111 376 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33739"
+			"plane" "(83.1265 376 79.4575) (86.2581 376 128) (86.2581 386 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33738"
+			"plane" "(79.3579 376 78.4425) (83.1265 376 79.4571) (83.1265 386 79.4571)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424079"
+		side
+		{
+			"id" "33749"
+			"plane" "(83.1265 376 79.4575) (78.452 376 7) (75.7957 376 14.3135)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33748"
+			"plane" "(79.3585 386 78.4431) (75.7957 386 14.3135) (78.452 386 7)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33747"
+			"plane" "(75.7949 376 14.3177) (78.4521 376 7) (78.4521 386 7)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33746"
+			"plane" "(79.3579 376 78.4429) (75.7953 376 14.3154) (75.7953 386 14.3154)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33745"
+			"plane" "(83.1266 386 79.4575) (78.4523 386 7) (78.4523 376 7)"
+			"material" "CONCRETE/CONCRETECEILING003A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33744"
+			"plane" "(83.1265 376 79.4571) (79.3579 376 78.4425) (79.3579 386 78.4425)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424080"
+		side
+		{
+			"id" "33755"
+			"plane" "(128.295 376 128) (86.2581 376 128) (86.2581 386 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33754"
+			"plane" "(83.1265 376 79.4575) (86.2581 376 128) (128.295 376 128)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33753"
+			"plane" "(138.21 386 94.2875) (128.295 386 128) (86.2581 386 128)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33752"
+			"plane" "(138.21 376 94.2875) (128.295 376 128) (128.295 386 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33751"
+			"plane" "(83.1265 386 79.4575) (86.2581 386 128) (86.2581 376 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33750"
+			"plane" "(83.1265 376 79.4574) (138.21 376 94.2875) (138.21 386 94.2875)"
+			"material" "CONCRETE/CONCRETECEILING003A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424082"
+		side
+		{
+			"id" "33769"
+			"plane" "(128.294 386 128) (158 386 128) (158 376 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33768"
+			"plane" "(158 376 99.6158) (158 376 128) (158 386 128)"
+			"material" "WOOD/WOODSTAIR002C"
+			"uaxis" "[0 1 0 224] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33767"
+			"plane" "(128.294 376 128) (158 376 128) (158 376 99.6158)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33766"
+			"plane" "(158 386 99.6158) (158 386 128) (128.294 386 128)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33765"
+			"plane" "(138.209 386 94.2874) (128.294 386 128) (128.294 376 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33764"
+			"plane" "(138.209 376 94.2876) (158 376 99.616) (158 386 99.616)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424083"
+		side
+		{
+			"id" "33774"
+			"plane" "(158 386 99.6158) (158 386 27) (158 376 27)"
+			"material" "WOOD/WOODSTAIR002C"
+			"uaxis" "[0 1 0 224] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33773"
+			"plane" "(158 376 99.6158) (158 376 27) (138.209 376 94.2874)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33772"
+			"plane" "(138.209 386 94.2874) (158 386 27) (158 386 99.6158)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33771"
+			"plane" "(138.209 376 94.2874) (158 376 27) (158 386 27)"
+			"material" "CONCRETE/CONCRETECEILING003A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33770"
+			"plane" "(138.209 386 94.2876) (158 386 99.616) (158 376 99.616)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "424084"
+		side
+		{
+			"id" "33779"
+			"plane" "(140.344 376 0) (158 376 0) (158 386 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-1 0 0 28] 0.25"
+			"vaxis" "[0 1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33778"
+			"plane" "(158 386 27) (158 386 0) (158 376 0)"
+			"material" "WOOD/WOODSTAIR002C"
+			"uaxis" "[0 1 0 224] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33777"
+			"plane" "(158 376 27) (158 376 0) (140.344 376 0)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33776"
+			"plane" "(140.344 386 0) (158 386 0) (158 386 27)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33775"
+			"plane" "(140.344 376 0) (140.344 386 0) (158 386 27)"
+			"material" "CONCRETE/CONCRETECEILING003A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 113 126"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -131831,7 +132558,7 @@ entity
 	"classname" "info_player_start"
 	"angles" "0 0 0"
 	"spawnflags" "0"
-	"origin" "1538 -947 1"
+	"origin" "1538 -944 1"
 	editor
 	{
 		"color" "0 255 0"
@@ -146999,6 +147726,7 @@ entity
 	{
 		"OnPlayerPickup" "knifeText,Display,,0,-1"
 		"OnPlayerPickup" "templet_01,ForceSpawn,,0,-1"
+		"OnPlayerPickup" "bathTrigger,Enable,,0,-1"
 	}
 	"origin" "626 470 0"
 	editor
@@ -154158,24 +154886,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 10000]"
-	}
-}
-entity
-{
-	"id" "252823"
-	"classname" "npc_firstmonster"
-	"angles" "0 0 0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"spawnflags" "516"
-	"origin" "206.232 622.243 1"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 10500]"
 	}
 }
 entity
@@ -168113,13 +168823,2471 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "410668"
+	"classname" "trigger_once"
+	"origin" "213 333 63.5"
+	"spawnflags" "1"
+	"StartDisabled" "1"
+	"targetname" "bathTrigger"
+	connections
+	{
+		"OnTrigger" "breakBath,Break,,0,-1"
+		"OnTrigger" "scipt_bathroom,BeginSequence,,0,1"
+		"OnStartTouch" "bathExplo,Explode,,0,-1"
+		"OnStartTouch" "bathSteam,TurnOn,,0,-1"
+		"OnTrigger" "bathSound,PlaySound,,0,1"
+		"OnTrigger" "screenEffect,StartEffect,5,0,-1"
+		"OnStartTouch" "bathSmoke,TurnOn,,0.5,-1"
+		"OnStartTouch" "templetBath,ForceSpawn,,2,-1"
+		"OnStartTouch" "bathSmoke,TurnOff,,3,-1"
+	}
+	solid
+	{
+		"id" "410664"
+		side
+		{
+			"id" "29400"
+			"plane" "(210 289 128) (210 376 128) (216 376 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29399"
+			"plane" "(210 376 -1) (210 289 -1) (216 289 -1)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29398"
+			"plane" "(210 289 -1) (210 376 -1) (210 376 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29397"
+			"plane" "(216 376 -1) (216 289 -1) (216 289 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29396"
+			"plane" "(210 376 -1) (216 376 -1) (216 376 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29395"
+			"plane" "(216 289 -1) (210 289 -1) (210 289 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 12500]"
+	}
+}
+entity
+{
+	"id" "418858"
+	"classname" "info_node"
+	"nodeid" "343"
+	"origin" "121.992 567.322 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 7000]"
+	}
+}
+entity
+{
+	"id" "418860"
+	"classname" "info_node"
+	"nodeid" "344"
+	"origin" "129.384 496.638 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 7500]"
+	}
+}
+entity
+{
+	"id" "418862"
+	"classname" "info_node"
+	"nodeid" "345"
+	"origin" "125.311 450.385 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 8000]"
+	}
+}
+entity
+{
+	"id" "418864"
+	"classname" "info_node"
+	"nodeid" "346"
+	"origin" "82.9601 452.479 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 8500]"
+	}
+}
+entity
+{
+	"id" "418866"
+	"classname" "info_node"
+	"nodeid" "347"
+	"spawnflags" "0"
+	"origin" "42.0509 446.607 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 9000]"
+	}
+}
+entity
+{
+	"id" "418868"
+	"classname" "info_node"
+	"nodeid" "348"
+	"origin" "39.0688 561.863 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 9500]"
+	}
+}
+entity
+{
+	"id" "418870"
+	"classname" "info_node"
+	"nodeid" "349"
+	"origin" "56.8984 511.557 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 10000]"
+	}
+}
+entity
+{
+	"id" "418872"
+	"classname" "info_node"
+	"nodeid" "350"
+	"origin" "128.669 415.226 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 10500]"
+	}
+}
+entity
+{
+	"id" "418878"
+	"classname" "info_node"
+	"nodeid" "353"
+	"origin" "195.285 331.664 1.00001"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 12000]"
+	}
+}
+entity
+{
+	"id" "424087"
+	"classname" "func_breakable"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"explodemagnitude" "0"
+	"ExplodeRadius" "0"
+	"explosion" "0"
+	"gibdir" "0 0 0"
+	"health" "1"
+	"material" "4"
+	"minhealthdmg" "0"
+	"nodamageforces" "0"
+	"origin" "118.5 381 48"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"propdata" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "0"
+	"spawnobject" "0"
+	"targetname" "breakBath"
+	solid
+	{
+		"id" "428663"
+		side
+		{
+			"id" "34312"
+			"plane" "(79.8743 376 36.1576) (80.3878 376 44.1173) (87.837 376 41.0233)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34311"
+			"plane" "(80.3878 386 44.1173) (79.8743 386 36.1576) (87.837 386 41.0233)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34310"
+			"plane" "(80.3869 376 44.119) (79.8732 376 36.157) (79.8732 386 36.157)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34309"
+			"plane" "(87.8372 376 41.0234) (80.3869 376 44.1179) (80.3869 386 44.1179)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.923497 0 -0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34308"
+			"plane" "(87.8372 386 41.0234) (79.8721 386 36.1563) (79.8721 376 36.1563)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.853282 0 -0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428664"
+		side
+		{
+			"id" "34317"
+			"plane" "(85.9561 376 24.2177) (78.9281 376 21.5223) (79.3526 376 28.1017)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34316"
+			"plane" "(79.3526 386 28.1017) (78.9281 386 21.5223) (85.9561 386 24.2177)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34315"
+			"plane" "(79.3535 376 28.1012) (78.9291 376 21.5233) (78.9291 386 21.5233)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34314"
+			"plane" "(85.9558 386 24.2179) (78.9302 386 21.5234) (78.9302 376 21.5234)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.933675 0 -0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34313"
+			"plane" "(85.9558 376 24.2179) (79.3531 376 28.1014) (79.3531 386 28.1014)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.861934 0 -0.50702 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428665"
+		side
+		{
+			"id" "34324"
+			"plane" "(107.971 376 32.6608) (85.9565 376 24.2175) (79.3535 376 28.1012)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34323"
+			"plane" "(79.8733 386 36.157) (79.3535 386 28.1012) (85.9565 386 24.2175)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34322"
+			"plane" "(79.8732 376 36.157) (79.3535 376 28.1012) (79.3535 386 28.1012)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34321"
+			"plane" "(107.971 386 32.6611) (85.9558 386 24.2179) (85.9558 376 24.2179)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.933675 0 -0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34320"
+			"plane" "(107.971 376 32.6611) (87.8372 376 41.0234) (87.8372 386 41.0234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.923497 0 -0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34319"
+			"plane" "(87.8372 376 41.0234) (79.8721 376 36.1563) (79.8721 386 36.1563)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.853282 0 0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34318"
+			"plane" "(85.9558 386 24.2179) (79.3531 386 28.1014) (79.3531 376 28.1014)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.861934 0 0.50702 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428666"
+		side
+		{
+			"id" "34331"
+			"plane" "(81.8745 376 67.1746) (82.76 376 80.9001) (110.528 376 88.3753)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34330"
+			"plane" "(82.76 386 80.9001) (81.8745 386 67.1746) (124.32 386 63.3163)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34329"
+			"plane" "(82.76 376 80.9006) (81.8744 376 67.1746) (81.8744 386 67.1746)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34328"
+			"plane" "(110.528 376 88.3754) (82.7591 376 80.9) (82.7591 386 80.9)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34327"
+			"plane" "(110.528 386 88.3754) (125.474 386 64.0213) (125.474 376 64.0213)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34326"
+			"plane" "(125.474 386 64.0212) (124.32 386 63.3163) (124.32 376 63.3163)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.853282 0 -0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34325"
+			"plane" "(124.32 386 63.3163) (81.8747 386 67.1745) (81.8747 376 67.1745)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.995893 0 0.0905358 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428667"
+		side
+		{
+			"id" "34337"
+			"plane" "(115.022 376 57.6346) (100.81 376 48.9503) (80.6242 376 47.797)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34336"
+			"plane" "(81.4195 386 60.1234) (80.6242 386 47.797) (100.81 386 48.9503)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34335"
+			"plane" "(81.4195 376 60.1234) (80.6242 376 47.7962) (80.6242 386 47.7962)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34334"
+			"plane" "(100.81 386 48.9502) (80.624 386 47.7969) (80.624 376 47.7969)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34333"
+			"plane" "(115.022 386 57.6346) (100.81 386 48.9502) (100.81 376 48.9502)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.853282 0 -0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34332"
+			"plane" "(115.022 376 57.6346) (81.4195 376 60.1234) (81.4195 386 60.1234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.997268 0 -0.0738717 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428668"
+		side
+		{
+			"id" "34343"
+			"plane" "(124.32 376 63.3163) (115.022 376 57.6346) (81.4195 376 60.1234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34342"
+			"plane" "(81.8745 386 67.1746) (81.4195 386 60.1234) (115.022 386 57.6346)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34341"
+			"plane" "(81.8744 376 67.1746) (81.4195 376 60.1234) (81.4195 386 60.1234)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34340"
+			"plane" "(124.32 386 63.3163) (115.022 386 57.6346) (115.022 376 57.6346)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.853282 0 -0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34339"
+			"plane" "(124.32 376 63.3163) (81.8747 376 67.1745) (81.8747 386 67.1745)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.995893 0 -0.0905358 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34338"
+			"plane" "(115.022 386 57.6346) (81.4195 386 60.1234) (81.4195 376 60.1234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.997268 0 0.0738717 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428669"
+		side
+		{
+			"id" "34348"
+			"plane" "(125.473 376 64.0241) (126.001 376 63.1635) (124.315 376 63.3167)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34347"
+			"plane" "(126.001 386 63.1635) (125.473 386 64.0241) (124.315 386 63.3167)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34346"
+			"plane" "(125.473 386 64.0224) (126 386 63.1635) (126 376 63.1635)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34345"
+			"plane" "(125.473 376 64.021) (124.32 376 63.3162) (124.32 386 63.3162)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.853282 0 0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34344"
+			"plane" "(125.999 386 63.1632) (124.319 386 63.3159) (124.319 376 63.3159)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.995893 0 0.0905349 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428670"
+		side
+		{
+			"id" "34354"
+			"plane" "(130.077 376 56.5194) (133.573 376 50.823) (100.811 376 48.951)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34353"
+			"plane" "(100.811 386 48.951) (133.573 386 50.823) (130.077 386 56.5194)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34352"
+			"plane" "(133.574 386 50.8223) (100.81 386 48.9502) (100.81 376 48.9502)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34351"
+			"plane" "(130.077 386 56.5194) (133.574 386 50.822) (133.574 376 50.822)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34350"
+			"plane" "(115.022 376 57.6346) (100.809 376 48.9501) (100.809 386 48.9501)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.853282 0 0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34349"
+			"plane" "(130.077 376 56.5195) (115.022 376 57.6346) (115.022 386 57.6346)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.997268 0 -0.0738717 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428671"
+		side
+		{
+			"id" "34360"
+			"plane" "(126 376 63.1635) (130.077 376 56.5194) (115.022 376 57.6346)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34359"
+			"plane" "(130.077 386 56.5194) (126 386 63.1635) (124.32 386 63.3163)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34358"
+			"plane" "(126 386 63.1635) (130.077 386 56.5194) (130.077 376 56.5194)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34357"
+			"plane" "(124.32 376 63.3163) (115.022 376 57.6346) (115.022 386 57.6346)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.853282 0 0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34356"
+			"plane" "(126 376 63.1631) (124.319 376 63.3159) (124.319 386 63.3159)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.995893 0 -0.0905349 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34355"
+			"plane" "(130.077 386 56.5195) (115.022 386 57.6346) (115.022 376 57.6346)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.997268 0 0.0738717 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428672"
+		side
+		{
+			"id" "34366"
+			"plane" "(138.847 376 95.9987) (144.783 376 75.8202) (125.474 376 64.0213)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34365"
+			"plane" "(144.783 386 75.8202) (138.847 386 95.9987) (110.528 386 88.3749)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34364"
+			"plane" "(138.848 386 96) (144.784 386 75.8207) (144.784 376 75.8207)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.283966 0 -0.958834 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34363"
+			"plane" "(138.849 376 95.9996) (110.528 376 88.3754) (110.528 386 88.3754)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34362"
+			"plane" "(110.528 376 88.3754) (125.474 376 64.0213) (125.474 386 64.0213)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34361"
+			"plane" "(144.784 386 75.8213) (125.474 386 64.0213) (125.474 376 64.0213)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.853282 0 -0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428673"
+		side
+		{
+			"id" "34372"
+			"plane" "(144.784 376 75.8208) (149.125 376 61.0615) (126 376 63.1635)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34371"
+			"plane" "(125.474 386 64.0215) (126 386 63.1635) (149.125 386 61.0615)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34370"
+			"plane" "(144.784 386 75.8208) (149.125 386 61.0615) (149.125 376 61.0615)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.283966 0 -0.958834 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34369"
+			"plane" "(125.474 376 64.0213) (126 376 63.1635) (126 386 63.1635)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34368"
+			"plane" "(144.783 376 75.8203) (125.474 376 64.0213) (125.474 386 64.0213)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.853282 0 0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34367"
+			"plane" "(149.124 386 61.0615) (126 386 63.1635) (126 376 63.1635)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.995893 0 0.0905357 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428674"
+		side
+		{
+			"id" "34378"
+			"plane" "(150.915 376 54.9805) (151.83 376 51.8661) (133.573 376 50.823)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34377"
+			"plane" "(130.077 386 56.5194) (133.573 386 50.823) (151.83 386 51.8661)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34376"
+			"plane" "(150.915 386 54.9805) (151.83 386 51.865) (151.83 376 51.865)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.283591 0 -0.958945 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34375"
+			"plane" "(151.83 386 51.8654) (133.574 386 50.8223) (133.574 376 50.8223)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34374"
+			"plane" "(130.077 376 56.5194) (133.574 376 50.8223) (133.574 386 50.8223)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34373"
+			"plane" "(150.915 376 54.9805) (130.077 376 56.5195) (130.077 386 56.5195)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428675"
+		side
+		{
+			"id" "34384"
+			"plane" "(149.125 376 61.0615) (150.915 376 54.9805) (130.077 376 56.5194)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34383"
+			"plane" "(126 386 63.1635) (130.077 386 56.5194) (150.915 386 54.9805)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34382"
+			"plane" "(149.125 386 61.0615) (150.915 386 54.9805) (150.915 376 54.9805)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.284156 0 -0.958778 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34381"
+			"plane" "(126 376 63.1635) (130.077 376 56.5194) (130.077 386 56.5194)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34380"
+			"plane" "(149.126 376 61.0613) (126 376 63.1635) (126 386 63.1635)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.995893 0 -0.0905357 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34379"
+			"plane" "(150.915 386 54.9805) (130.077 386 56.5195) (130.077 376 56.5195)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428676"
+		side
+		{
+			"id" "34390"
+			"plane" "(87.8362 376 41.0228) (80.3859 376 44.1173) (80.6233 376 47.7968)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34389"
+			"plane" "(80.6233 386 47.7968) (80.3859 386 44.1173) (87.8362 386 41.0228)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34388"
+			"plane" "(80.6243 376 47.7969) (80.387 376 44.119) (80.387 386 44.119)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34387"
+			"plane" "(87.8372 386 41.0234) (80.3869 386 44.1179) (80.3869 376 44.1179)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.923497 0 0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34386"
+			"plane" "(100.81 376 48.9502) (80.626 376 47.797) (80.626 386 47.797)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34385"
+			"plane" "(100.809 386 48.9502) (87.8372 386 41.0234) (87.8372 376 41.0234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.853282 0 -0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428677"
+		side
+		{
+			"id" "34397"
+			"plane" "(137.718 376 44.0685) (107.972 376 32.66) (87.8368 376 41.0232)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34396"
+			"plane" "(87.8368 386 41.0232) (107.972 386 32.66) (137.718 386 44.0685)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34395"
+			"plane" "(137.718 386 44.0699) (107.971 386 32.6614) (107.971 376 32.6614)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.933675 0 -0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34394"
+			"plane" "(107.969 386 32.6616) (87.8372 386 41.0234) (87.8372 376 41.0234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.923497 0 0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34393"
+			"plane" "(133.574 376 50.8223) (100.81 376 48.9502) (100.81 386 48.9502)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34392"
+			"plane" "(133.574 386 50.8223) (137.718 386 44.0693) (137.718 376 44.0693)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523017 0 -0.852322 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34391"
+			"plane" "(100.81 376 48.9502) (87.8372 376 41.0234) (87.8372 386 41.0234)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.853282 0 0.52145 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428678"
+		side
+		{
+			"id" "34403"
+			"plane" "(151.828 376 51.8653) (152.458 376 49.7242) (137.717 376 44.0708)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34402"
+			"plane" "(137.717 386 44.0708) (152.458 386 49.7242) (151.828 386 51.8653)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34401"
+			"plane" "(151.83 386 51.8654) (152.46 386 49.7242) (152.46 376 49.7242)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.283966 0 -0.958834 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34400"
+			"plane" "(152.459 386 49.7235) (137.718 386 44.0699) (137.718 376 44.0699)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.933675 0 -0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34399"
+			"plane" "(151.83 376 51.8654) (133.574 376 50.8223) (133.574 386 50.8223)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34398"
+			"plane" "(133.574 376 50.8223) (137.718 376 44.0699) (137.718 386 44.0699)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523017 0 -0.852322 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428679"
+		side
+		{
+			"id" "34411"
+			"plane" "(87.8584 386 0) (80.5946 386 0) (80.5946 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[1 0 0 28] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34410"
+			"plane" "(87.8584 376 0) (80.5946 376 0) (78 376 7.12711)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34409"
+			"plane" "(78.929 386 21.523) (78 386 7.12711) (80.5946 386 0)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34408"
+			"plane" "(78.0002 376 7.12711) (80.5946 376 0) (80.5946 386 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.344131 0 -0.938922 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34407"
+			"plane" "(78.9291 376 21.523) (78.0002 376 7.12711) (78.0002 386 7.12711)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34406"
+			"plane" "(85.9557 376 24.2179) (78.929 376 21.523) (78.929 386 21.523)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.933675 0 0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34405"
+			"plane" "(85.9557 386 24.2179) (108.755 386 10.8077) (108.755 376 10.8077)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.861934 0 -0.50702 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34404"
+			"plane" "(108.755 386 10.8077) (87.8584 386 0) (87.8584 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.888218 0 -0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428680"
+		side
+		{
+			"id" "34416"
+			"plane" "(127.13 386 0) (87.8584 386 0) (87.8584 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[1 0 0 28] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34415"
+			"plane" "(127.13 376 0) (87.8584 376 0) (108.755 376 10.8078)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34414"
+			"plane" "(87.8584 386 0) (127.13 386 0) (108.755 386 10.8078)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34413"
+			"plane" "(108.755 386 10.8077) (127.13 386 0) (127.13 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.861934 0 -0.50702 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34412"
+			"plane" "(108.755 376 10.8077) (87.8584 376 0) (87.8584 386 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.888218 0 0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428681"
+		side
+		{
+			"id" "34422"
+			"plane" "(108.755 376 10.8077) (85.9565 376 24.2174) (107.97 376 32.66)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34421"
+			"plane" "(131.838 386 22.7462) (107.97 386 32.66) (85.9565 386 24.2174)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34420"
+			"plane" "(107.971 376 32.6614) (85.9558 376 24.2179) (85.9558 386 24.2179)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.933675 0 0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34419"
+			"plane" "(131.84 376 22.747) (107.969 376 32.6616) (107.969 386 32.6616)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.923497 0 -0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34418"
+			"plane" "(108.755 386 10.8077) (85.9549 386 24.2184) (85.9549 376 24.2184)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.861934 0 0.50702 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34417"
+			"plane" "(131.84 386 22.747) (108.755 386 10.8077) (108.755 376 10.8077)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.888218 0 -0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428682"
+		side
+		{
+			"id" "34429"
+			"plane" "(141.024 386 0) (127.13 386 0) (127.13 376 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[1 0 0 28] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34428"
+			"plane" "(150.76 376 14.8885) (141.024 376 0) (127.13 376 0)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34427"
+			"plane" "(127.13 386 0) (141.024 386 0) (150.76 386 14.8885)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34426"
+			"plane" "(150.76 386 14.8885) (141.024 386 0) (141.024 376 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-0.549936 0 -0.835206 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34425"
+			"plane" "(131.84 386 22.747) (150.76 386 14.8885) (150.76 376 14.8885)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.923497 0 -0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34424"
+			"plane" "(108.755 376 10.8077) (127.13 376 0) (127.13 386 0)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.861934 0 0.50702 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34423"
+			"plane" "(131.84 376 22.747) (108.755 376 10.8077) (108.755 386 10.8077)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.888218 0 0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428683"
+		side
+		{
+			"id" "34435"
+			"plane" "(131.84 376 22.7468) (107.972 376 32.66) (137.718 376 44.0685)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34434"
+			"plane" "(137.718 386 44.0685) (107.972 386 32.66) (131.84 386 22.7468)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34433"
+			"plane" "(137.718 376 44.0699) (107.971 376 32.6614) (107.971 386 32.6614)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.933675 0 0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34432"
+			"plane" "(131.84 386 22.747) (107.969 386 32.6616) (107.969 376 32.6616)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.923497 0 0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34431"
+			"plane" "(137.717 386 44.071) (146.235 386 30.1918) (146.235 376 30.1918)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34430"
+			"plane" "(146.235 386 30.1918) (131.84 386 22.747) (131.84 376 22.747)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.888218 0 -0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428684"
+		side
+		{
+			"id" "34441"
+			"plane" "(146.235 376 30.1918) (153.269 376 18.7288) (150.758 376 14.8887)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34440"
+			"plane" "(131.839 386 22.7467) (150.758 386 14.8887) (153.269 386 18.7288)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34439"
+			"plane" "(153.27 386 18.728) (150.759 386 14.888) (150.759 376 14.888)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-0.549878 0 -0.835245 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34438"
+			"plane" "(150.76 386 14.8887) (131.84 386 22.747) (131.84 376 22.747)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[-0.923497 0 0.383606 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34437"
+			"plane" "(146.235 386 30.1918) (153.27 386 18.7271) (153.27 376 18.7271)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34436"
+			"plane" "(146.235 376 30.1918) (131.84 376 22.747) (131.84 386 22.747)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.888218 0 0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428685"
+		side
+		{
+			"id" "34447"
+			"plane" "(152.458 376 49.7231) (156.623 376 35.5647) (146.235 376 30.1918)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34446"
+			"plane" "(156.623 386 35.5647) (152.458 386 49.7231) (137.718 386 44.0699)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34445"
+			"plane" "(152.46 386 49.7245) (156.625 386 35.5658) (156.625 376 35.5658)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.284021 0 -0.958818 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34444"
+			"plane" "(152.458 376 49.7233) (137.718 376 44.0699) (137.718 386 44.0699)"
+			"material" "PLASTER/PLASTERWALL043C"
+			"uaxis" "[0.933675 0 0.358122 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34443"
+			"plane" "(137.718 376 44.0699) (146.235 376 30.1918) (146.235 386 30.1918)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34442"
+			"plane" "(156.625 386 35.5654) (146.235 386 30.1918) (146.235 376 30.1918)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[-0.888218 0 -0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "428686"
+		side
+		{
+			"id" "34453"
+			"plane" "(156.625 376 35.5654) (159 376 27.4903) (153.27 376 18.728)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[1 0 0 -88] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34452"
+			"plane" "(146.235 386 30.1918) (153.27 386 18.728) (159 386 27.4903)"
+			"material" "VICTORIA_TEXTURES/BATHROOM4"
+			"uaxis" "[-1 0 0 0] 0.05"
+			"vaxis" "[0 0 -1 0] 0.05"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34451"
+			"plane" "(159 386 27.4903) (153.27 386 18.7277) (153.27 376 18.7277)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-0.549917 0 -0.835219 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34450"
+			"plane" "(156.624 386 35.5652) (159 386 27.4903) (159 376 27.4903)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.284042 0 -0.958812 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34449"
+			"plane" "(146.235 376 30.1918) (153.27 376 18.728) (153.27 386 18.728)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0.523016 0 -0.852323 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34448"
+			"plane" "(156.624 376 35.5653) (146.235 376 30.1918) (146.235 386 30.1918)"
+			"material" "VICTORIA_TEXTURES/KORRIDOR4_TEST"
+			"uaxis" "[0.888218 0 0.459423 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -13268]"
+	}
+}
+entity
+{
+	"id" "427927"
+	"classname" "scripted_sequence"
+	"angles" "0 0 0"
+	"m_fMoveTo" "1"
+	"spawnflags" "0"
+	"targetname" "scipt_bathroom"
+	connections
+	{
+		"OnEndSequence" "bathMonster,Break,,0,-1"
+	}
+	"origin" "116.158 332.088 1.00001"
+	editor
+	{
+		"color" "255 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "428045"
+	"classname" "ambient_generic"
+	"health" "10"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"origin" "160.943 344.85 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "428687"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "10"
+	"rendermode" "5"
+	"spawnflags" "0"
+	"targetname" "bathExplo"
+	"origin" "140 408 67"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10268]"
+	}
+}
+entity
+{
+	"id" "428695"
+	"classname" "env_steam"
+	"angles" "0 0 0"
+	"EndSize" "25"
+	"JetLength" "80"
+	"Rate" "26"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"rollspeed" "8"
+	"spawnflags" "0"
+	"Speed" "120"
+	"SpreadSpeed" "15"
+	"StartSize" "10"
+	"targetname" "bathSteam"
+	"type" "0"
+	"origin" "102 379 9.11939"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9768]"
+	}
+}
+entity
+{
+	"id" "428750"
+	"classname" "prop_static"
+	"angles" "0 90 -74"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_lab/pipesystem02e.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "82 380 9.11939"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "428799"
+	"classname" "prop_static"
+	"angles" "0 90 -74"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_lab/pipesystem02d.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "96 380 32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "428822"
+	"classname" "prop_static"
+	"angles" "0 90 -149"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_lab/pipesystem02d.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "148 380 35"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "429172"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "ambient/explosions/explode_4.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "bathSound"
+	"volstart" "10"
+	"origin" "114.587 366.201 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -8768]"
+	}
+}
+entity
+{
+	"id" "433854"
+	"classname" "env_screeneffect"
+	"targetname" "screenEffect"
+	"type" "0"
+	"origin" "171.411 340.67 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 1000]"
+	}
+}
+entity
+{
+	"id" "433915"
+	"classname" "prop_static"
+	"angles" "0 90 -95"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_lab/pipesystem02d.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "65 380 51"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "433923"
+	"classname" "prop_static"
+	"angles" "0 90 -74"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_lab/pipesystem02e.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "80 380 66"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "433940"
+	"classname" "env_smokestack"
+	"angles" "0 0 0"
+	"BaseSpread" "20"
+	"EndSize" "30"
+	"JetLength" "180"
+	"Rate" "20"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SmokeMaterial" "particle/SmokeStack.vmt"
+	"Speed" "30"
+	"SpreadSpeed" "15"
+	"StartSize" "50"
+	"targetname" "bathSmoke"
+	"origin" "127.246 358.632 9"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 1500]"
+	}
+}
+entity
+{
+	"id" "433952"
+	"classname" "math_counter"
+	"max" "1"
+	"min" "1"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "counterbath"
+	connections
+	{
+		"OnHitMax" "templet_01,Kill,,0,-1"
+	}
+	"origin" "24 335 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "433954"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "templetBath"
+	"Template01" "bathZoombie"
+	connections
+	{
+		"OnEntitySpawned" "counter_01,Add,1,0,-1"
+	}
+	"origin" "49 336 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "433958"
+	"classname" "npc_firstmonster"
+	"angles" "0 0 0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"spawnflags" "516"
+	"targetname" "bathZoombie"
+	"wakeradius" "5"
+	"origin" "-9 330 6"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1714.44 -771.358 41.2238]"
-		"look" "[1713.67 -771.984 41.089]"
+		"position" "[104.386 335.482 83.2601]"
+		"look" "[105.386 335.502 83.3091]"
 	}
 }
 cordon
