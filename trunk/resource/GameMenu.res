@@ -2,17 +2,17 @@
 {
 	"1"
 	{
-		"label" "N__________________"
+		"label" "                   "
 		"command" "OpenNewGameDialog"
 	}
 	"2"
 	{
-		"label" "N__________________"
+		"label" "                               "
 		"command" "OpenOptionsDialog"
 	}
 	"3"
 	{
-		"label" "N______"
+		"label" "      "
 		"command" "Quit"
 	}
 }
