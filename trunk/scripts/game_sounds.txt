@@ -205,7 +205,6 @@
 		"wave"	"ingamemusic/ambient4.mp3"
 		"wave"	"ingamemusic/ambient5.wav"
 		"wave"	"ingamemusic/ambient6.wav" 
-		"wave"	"ingamemusic/ambient7.wav"
 	}
 }
 	
